@@ -392,7 +392,7 @@ ALTER TABLE activite
 
 
 -- Insertion de valeurs (à faire sur un autre document VScode)
-INSERT INTO abonnement (id_abonnement, date_activation, date_expiration, nom_abonnement, duree_abonnement) VALUES ();
+/*INSERT INTO abonnement (id_abonnement, date_activation, date_expiration, nom_abonnement, duree_abonnement) VALUES ();
 
 
 INSERT INTO possession (id_abonnement, numero_client, id_personne, id_coordonnee) VALUES ();
@@ -437,4 +437,4 @@ INSERT INTO commande (id_commande, id_contrat, ide, id_coordonnee, date_commande
 INSERT INTO contrat (id_contrat, ide, id_coordonnee, date_contrat, prix_contrat, date_paiement, paye_ou_non) VALUES ();
 
 
-INSERT INTO fournisseur (ide, id_coordonnee, nom_entreprise, npa, localite, rue, numero_rue, complement, adresse_mail, telephone) VALUES ();
+INSERT INTO fournisseur (ide, id_coordonnee, nom_entreprise, npa, localite, rue, numero_rue, complement, adresse_mail, telephone) VALUES ();*/
