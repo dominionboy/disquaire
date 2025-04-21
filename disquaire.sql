@@ -216,6 +216,84 @@ CREATE TABLE localite (
 
 
 
+ALTER TABLE 
+  ADD CONSTRAINT
+  FOREIGN KEY ()
+  REFERENCES  ()
+
+ALTER TABLE categorie
+  ADD CONSTRAINT fk_categorie_produit
+  FOREIGN KEY (id_produit)
+  REFERENCES produit (id_produit)
+
+ALTER TABLE categorie
+  ADD CONSTRAINT fk_categorie_genre
+  FOREIGN KEY (id_genre)
+  REFERENCES genre (id_genre)
+
+ALTER TABLE disponible
+  ADD CONSTRAINT fk_disponible_format
+  FOREIGN KEY (id_format)
+  REFERENCES format (id_format)
+
+ALTER TABLE disponible
+  ADD CONSTRAINT fk_disponible_produit
+  FOREIGN KEY (id_produit)
+  REFERENCES produit (id_produit)
+
+ALTER TABLE produit
+  ADD CONSTRAINT fk_produit_type
+  FOREIGN KEY (id_type)
+  REFERENCES type (id_type)
+
+ALTER TABLE coordonnee
+  ADD CONSTRAINT
+  FOREIGN KEY (id_pays)
+  REFERENCES pays (id_pays)
+
+ALTER TABLE coordonnee
+  ADD CONSTRAINT fk_coordonnee_localite
+  FOREIGN KEY (npa)
+  REFERENCES locallite (npa)
+
+ALTER TABLE client
+  ADD CONSTRAINT fk_client_coordonnee
+  FOREIGN KEY (id_coordonnee)
+  REFERENCES coordonnee (id_coordonnee)
+
+ALTER TABLE fournisseur
+  ADD CONSTRAINT fk_fournisseur_coordonnee
+  FOREIGN KEY (id_coordonnee)
+  REFERENCES coordonnee (id_coordonnee)
+
+ALTER TABLE commande
+  ADD CONSTRAINT fk_commande_fournisseur
+  FOREIGN KEY (id_fournisseur)
+  REFERENCES fournisseur (id_fournisseur)
+
+
+ALTER TABLE quantite
+  ADD CONSTRAINT fk_quantite_commande
+  FOREIGN KEY (id_commande,id_fournisseur)
+  REFERENCES commande (id_commande,id_fournisseur)
+
+
+ALTER TABLE quantite
+  ADD CONSTRAINT fk_quantite_produit
+  FOREIGN KEY (id_produit)
+  REFERENCES produit (id_produit)
+
+
+ALTER TABLE nationalite
+  ADD CONSTRAINT fk_nationalite_pays
+  FOREIGN KEY (id_pays)
+  REFERENCES pays (id_pays)
+
+
+ALTER TABLE nationalite
+  ADD CONSTRAINT fk_nationalite_artiste
+  FOREIGN KEY (id_artiste,id_personne)
+  REFERENCES artiste (id_artitste,id_personne)
 
 
 ALTER TABLE activite
@@ -345,5 +423,3 @@ ALTER TABLE abonnement
    ADD CONSTRAINT fk_abonnement_type_abonnement
    FOREIGN KEY (id_type_abonnement)
    REFERENCES type_abonnement(id_type_abonnement);
-
-
