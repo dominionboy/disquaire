@@ -11,7 +11,7 @@ CREATE TABLE client (
   prenom VARCHAR(50) NOT NULL,
   date_inscription DATE NOT NULL,
   solde_client FLOAT NOT NULL,
-  id_coordonnee
+  id_coordonnee INT NOT NULL,
   PRIMARY KEY (numero_client,id_personne)
 );
 
@@ -157,13 +157,13 @@ CREATE TABLE abonnement (
 
 CREATE TABLE type_abonnement(
   id_type_abonnement INT not null,
-  nom_abonnement VARCHAR(50),
+  nom_abonnement VARCHAR(50) NOT NULL,
   PRIMARY KEY (id_type_abonnement)
 );
 
 CREATE TABLE methode_paiement(
   id_methode_paiement INT NOT NULL,
-  methode_paiement VARCHAR(20),
+  methode_paiement VARCHAR(20) NOT NULL,
   PRIMARY KEY (id_methode_paiement)
 );
 
@@ -212,5 +212,138 @@ CREATE TABLE localite (
   localite VARCHAR(50) NOT NULL,
   PRIMARY KEY (npa)
 );
+
+
+
+
+
+
+ALTER TABLE activite
+  ADD CONSTRAINT fk_activite_type_artiste
+  FOREIGN KEY (id_type_artiste)
+  REFERENCES artiste (id_type_artiste);
+
+
+ALTER TABLE activite
+  ADD CONSTRAINT fk_activite_artiste
+  FOREIGN KEY (id_artiste,id_personne)
+  REFERENCES artiste (id_artiste, id_personne);
+
+ALTER TABLE creation
+   ADD CONSTRAINT fk_creation_produit
+   FOREIGN KEY (id_produit)
+   REFERENCES produit(id_produit);
+
+
+ALTER TABLE creation
+   ADD CONSTRAINT fk_creation_artiste
+   FOREIGN KEY (id_artiste,id_personne)
+   REFERENCES artiste(id_artiste,id_personne);
+
+
+
+ALTER TABLE parler
+   ADD CONSTRAINT fk_parler_langue
+   FOREIGN KEY (id_langue)
+   REFERENCES langue(id_langue);
+
+ALTER TABLE parler
+   ADD CONSTRAINT fk_parler_produit
+   FOREIGN KEY (id_produit)
+   REFERENCES produit(id_produit);
+
+
+
+ALTER TABLE changement_stock
+   ADD CONSTRAINT fk_changement_stock_prdoduit
+   FOREIGN KEY (id_produit)
+   REFERENCES client(id_produit);
+
+
+
+
+
+
+
+ALTER TABLE emprunt
+   ADD CONSTRAINT fk_emprunt_client
+   FOREIGN KEY (numero_client, id_personne)
+   REFERENCES client(numero_client, id_personne);
+
+
+
+
+ALTER TABLE emprunt
+   ADD CONSTRAINT fk_emprunt_exemplaire
+   FOREIGN KEY (code_interne, id_produit)
+   REFERENCES exemplaire(code_interne, id_produit);
+
+
+
+ALTER TABLE exemplaire
+   ADD CONSTRAINT fk_exemplaire_produit
+   FOREIGN KEY (id_produit)
+   REFERENCES produit(id_produit);
+
+
+
+
+
+ALTER TABLE exemplaire
+   ADD CONSTRAINT fk_exemplaire_etat
+   FOREIGN KEY (id_etat)
+   REFERENCES etat(id_etat);
+
+
+
+
+
+
+
+ALTER TABLE reservation
+   ADD CONSTRAINT fk_contrat_exemplaire
+   FOREIGN KEY (code_interne, id_produit)
+   REFERENCES exemplaire(ide, id_produit);
+
+
+
+
+ALTER TABLE reservation
+   ADD CONSTRAINT fk_reservation_client
+   FOREIGN KEY (numero_client, id_personne)
+   REFERENCES client(numero_client, id_personne);
+
+
+ALTER TABLE paiement
+   ADD CONSTRAINT fk_paiement_client
+   FOREIGN KEY (numero_client,id_personne)
+   REFERENCES client(id_personne);
+
+ALTER TABLE paiement
+   ADD CONSTRAINT fk_paiement_methode_paiement
+   FOREIGN KEY (id_methode_paiement)
+   REFERENCES methode_paiementduit(id_methode_paiement);
+
+
+
+
+ALTER TABLE abonnement_actif
+   ADD CONSTRAINT fk_abonnement_actif_client
+   FOREIGN KEY (numero_client, id_personne)
+   REFERENCES client(id_anumero_clietrtiste, id_personne);
+
+
+
+
+ALTER TABLE abonnement_actif
+   ADD CONSTRAINT fk_abonnement_actif_abonnement
+   FOREIGN KEY (id_abonnement)
+   REFERENCES abonnement(id_abonnement);
+
+
+ALTER TABLE abonnement
+   ADD CONSTRAINT fk_abonnement_type_abonnement
+   FOREIGN KEY (id_type_abonnement)
+   REFERENCES type_abonnement(id_type_abonnement);
 
 
