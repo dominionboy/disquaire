@@ -1,9 +1,14 @@
-
+-- Suppression de la base de données si elle existe
 DROP DATABASE IF EXISTS disquaire_db;
+
+-- Création de la base de données
 CREATE DATABASE disquaire_db;
+
+-- Utiliser la base de données 'horaires_de_bus' pour les requêtes suivantes
 USE disquaire_db;
 
-
+-- Suppression et création des tables ainsi que leurs colonnes
+DROP TABLE IF EXISTS client;
 CREATE TABLE client (
   numero_client INT NOT NULL,
   id_personne INT NOT NULL,
@@ -12,44 +17,47 @@ CREATE TABLE client (
   date_inscription DATE NOT NULL,
   solde_client FLOAT NOT NULL,
   id_coordonnee INT NOT NULL,
-  PRIMARY KEY (numero_client,id_personne)
+  PRIMARY KEY (numero_client, id_personne)
 );
 
+DROP TABLE IF EXISTS coordonnees;
 CREATE TABLE coordonnees (
   id_coordonnee INT NOT NULL,
-  npa INT NOT NULL,
-  localite VARCHAR(50) NOT NULL,
   rue VARCHAR(50) NOT NULL,
   numero_rue INT NOT NULL,
-  complement VARCHAR(50),
+  complement VARCHAR(50) NOT NULL,
   adresse_mail VARCHAR(50) NOT NULL,
   telephone VARCHAR(12) NOT NULL,
-  id_pays INT NOT NULL
+  id_pays INT NOT NULL,
+  npa INT NOT NULL,
   PRIMARY KEY (id_coordonnee)
 );
 
-
+DROP TABLE IF EXISTS produit;
 CREATE TABLE produit (
   id_produit INT NOT NULL,
-  titre_produit VARCHAR(100) NOT NULL,
-  annee_sortie INT,
+  titre_produit VARCHAR(50) NOT NULL,
+  annee_sortie INT NOT NULL,
   id_type INT NOT NULL,
   PRIMARY KEY (id_produit)
 );
 
+DROP TABLE IF EXISTS exemplaire;
 CREATE TABLE exemplaire (
   code_interne INT NOT NULL,
   id_produit INT not null,
   id_etat INT NOT NULL,
-  PRIMARY KEY (code_interne,id_produit)
+  PRIMARY KEY (code_interne, id_produit)
 );
 
+DROP TABLE IF EXISTS genre;
 CREATE TABLE genre (
     id_genre INT NOT NULL,
-    genre VARCHAR(100) NOT NULL
+    genre VARCHAR(50) NOT NULL,
     PRIMARY KEY (id_genre)
 );
 
+DROP TABLE IF EXISTS emprunt;
 CREATE TABLE emprunt (
   id_emprunt INT NOT NULL,
   numero_client INT NOT NULL,
@@ -59,54 +67,58 @@ CREATE TABLE emprunt (
   date_depart DATE NOT NULL,
   date_retour DATE NOT NULL,
   prolongation BOOLEAN NOT NULL,
-  PRIMARY KEY (id_emprunt,numero_client,id_personne,id_produit,code_interne)
+  PRIMARY KEY (id_emprunt, numero_client, id_personne, id_produit, code_interne)
 );
 
+DROP TABLE IF EXISTS paiement;
 CREATE TABLE paiement (
   id_paiement INT NOT NULL,
-  montant_paiement FLOAT not null,
+  montant_paiement FLOAT NOT NULL,
   numero_client INT NOT NULL,
   id_personne INT NOT NULL,
-  id_methode_paiement int not null,
+  id_methode_paiement INT NOT NULL,
   PRIMARY KEY (id_paiement)
 );
 
+DROP TABLE IF EXISTS abonnement;
 CREATE TABLE abonnement (
   id_abonnement INT NOT NULL,
   date_activation DATE NOT NULL,
   date_expiration DATE NOT NULL,
+  id_type_abonnement INT NOT NULL,
   PRIMARY KEY (id_abonnement)
 );
 
 
-
+DROP TABLE IF EXISTS artiste;
 CREATE TABLE artiste (
   id_artiste INT NOT NULL,
   id_personne INT NOT NULL,
+  nom_artiste VARCHAR(100) NOT NULL,
   nom VARCHAR(50) NOT NULL,
   prenom VARCHAR(50) NOT NULL,
-  nom_artiste VARCHAR(100),
-  PRIMARY KEY (id_artiste)
+  PRIMARY KEY (id_artiste, id_personne)
 );
 
-
+DROP TABLE IF EXISTS commande;
 CREATE TABLE commande (
   id_commande INT NOT NULL,
   id_fournisseur INT NOT NULL,
   date_livraison DATE NOT NULL,
   date_commande DATE NOT NULL,
   date_paiement DATE NOT NULL,
-  PRIMARY KEY (id_commande)
+  PRIMARY KEY (id_commande, id_fournisseur)
 );
 
-
+DROP TABLE IF EXISTS fournisseur;
 CREATE TABLE fournisseur (
   id_fournisseur INT NOT NULL,
-  nom_entreprise VARCHAR(50)
+  nom_entreprise VARCHAR(50) NOT NULL,
   id_coordonnee INT NOT NULL,
   PRIMARY KEY (id_fournisseur)
 );
 
+DROP TABLE IF EXISTS quantite;
 CREATE TABLE quantite (
   id_commande INT NOT NULL,
   id_fournisseur INT NOT NULL,
@@ -116,6 +128,7 @@ CREATE TABLE quantite (
   PRIMARY KEY (id_commande, id_fournisseur, id_produit)
 );
 
+DROP TABLE IF EXISTS reservation;
 CREATE TABLE reservation (
   id_reservation INT NOT NULL,
   numero_client INT NOT NULL,
@@ -123,56 +136,33 @@ CREATE TABLE reservation (
   id_produit INT NOT NULL,
   code_interne INT NOT NULL,
   date_depart_reservation DATE NOT NULL,
-
   PRIMARY KEY (id_reservation, numero_client, id_personne, id_produit, code_interne)
 );
 
+DROP TABLE IF EXISTS abonnement_actif;
 CREATE TABLE abonnement_actif (
   id_abonnement INT NOT NULL,
   numero_client INT NOT NULL,
   id_personne INT NOT NULL,
   en_cours BOOLEAN NOT NULL,
-
   PRIMARY KEY (id_abonnement, numero_client, id_personne)
 );
 
-CREATE TABLE reservation (
-  id_reservation INT NOT NULL,
-  numero_client INT NOT NULL,
-  id_personne INT NOT NULL,
-  id_produit INT NOT NULL,
-  code_interne INT NOT NULL,
-  date_depart_reservation DATE NOT NULL,
-
-  PRIMARY KEY (id_reservation, numero_client, id_personne, id_produit, code_interne)
-);
-
-CREATE TABLE abonnement (
-  id_abonnement INT NOT NULL,
-  date_activation DATE NOT NULL,
-  date_expiration DATE NOT NULL,
-  id_type_abonnement INT NOT NULL,
-  PRIMARY KEY (id_abonnement)
-);
-
+DROP TABLE IF EXISTS type_abonnement;
 CREATE TABLE type_abonnement(
-  id_type_abonnement INT not null,
+  id_type_abonnement INT NOT NULL,
   nom_abonnement VARCHAR(50) NOT NULL,
   PRIMARY KEY (id_type_abonnement)
 );
 
+DROP TABLE IF EXISTS methode_paiement;
 CREATE TABLE methode_paiement(
   id_methode_paiement INT NOT NULL,
   methode_paiement VARCHAR(20) NOT NULL,
   PRIMARY KEY (id_methode_paiement)
 );
 
-CREATE TABLE type_artiste(
-  id_type_artiste INT NOT NULL,
-  type_artiste VARCHAR(50),
-  PRIMARY KEY (id_methode_paiement)
-);
-
+DROP TABLE IF EXISTS changement_stock;
 CREATE TABLE changement_stock(
   id_stock_changement INT NOT NULL,
   quantite_changee INT NOT NULL,
@@ -180,42 +170,49 @@ CREATE TABLE changement_stock(
   PRIMARY KEY (id_stock_changement)
 );
 
+DROP TABLE IF EXISTS langue;
 CREATE TABLE langue(
   id_langue INT NOT NULL,
-  langue VARCHAR(50),
-  PRIMARY KEY (id_stock_changement)
+  langue VARCHAR(50) NOT NULL,
+  PRIMARY KEY (id_langue)
 );
 
-
-
+DROP TABLE IF EXISTS type;
 CREATE TABLE type(
   id_type INT NOT NULL,
-  type VARCHAR(50),
+  type VARCHAR(50) NOT NULL,
   PRIMARY KEY (id_type)
 );
 
+DROP TABLE IF EXISTS format;
 CREATE TABLE format(
   id_format INT NOT NULL,
-  format VARCHAR(50),
+  format VARCHAR(50) NOT NULL,
   PRIMARY KEY (id_format)
 );
 
-
+DROP TABLE IF EXISTS pays;
 CREATE TABLE pays(
   id_pays INT NOT NULL,
-  pays VARCHAR(50),
+  pays VARCHAR(50) NOT NULL,
   PRIMARY KEY (id_pays)
 );
 
+DROP TABLE IF EXISTS localite;
 CREATE TABLE localite (
   npa INT NOT NULL,
   localite VARCHAR(50) NOT NULL,
   PRIMARY KEY (npa)
 );
 
+DROP TABLE IF EXISTS etat;
+CREATE TABLE etat (
+  id_etat INT NOT NULL,
+  etat VARCHAR(20) NOT NULL,
+  PRIMARY KEY (id_etat)
+);
 
-
-
+-- Ajouter les contraintes de clés étrangères sur les différentes tables
 ALTER TABLE 
   ADD CONSTRAINT
   FOREIGN KEY ()
