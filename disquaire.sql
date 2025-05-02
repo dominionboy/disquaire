@@ -212,6 +212,58 @@ CREATE TABLE etat (
   PRIMARY KEY (id_etat)
 );
 
+DROP TABLE IF EXISTS parler;
+CREATE TABLE parler (
+  id_langue INT NOT NULL,
+  id_produit INT NOT NULL,
+  PRIMARY KEY (id_langue, id_produit)
+);
+
+DROP TABLE IF EXISTS disponible;
+CREATE TABLE disponible (
+  id_produit INT NOT NULL,
+  id_format INT NOT NULL,
+  PRIMARY KEY (id_produit, id_format)
+);
+
+DROP TABLE IF EXISTS categorie;
+CREATE TABLE categorie (
+  id_produit INT NOT NULL,
+  id_genre INT NOT NULL,
+  PRIMARY KEY (id_produit, id_genre)
+);
+
+DROP TABLE IF EXISTS creation;
+CREATE TABLE creation (
+  id_artiste INT NOT NULL,
+  id_personne INT NOT NULL,
+  id_produit INT NOT NULL,
+  PRIMARY KEY (id_artiste, id_personne, id_produit)
+);
+
+DROP TABLE IF EXISTS activite;
+CREATE TABLE activite (
+  id_artiste INT NOT NULL,
+  id_personne INT NOT NULL,
+  id_type_artiste INT NOT NULL,
+  PRIMARY KEY (id_artiste, id_personne, id_type_artiste)
+);
+
+DROP TABLE IF EXISTS type_artiste;
+CREATE TABLE type_artiste (
+  id_type_artiste INT NOT NULL,
+  type_artiste VARCHAR(50) NOT NULL,
+  PRIMARY KEY (id_type_artiste)
+);
+
+DROP TABLE IF EXISTS nationalite;
+CREATE TABLE nationalite (
+  id_pays INT NOT NULL,
+  id_artiste INT NOT NULL,
+  id_personne INT NOT NULL,
+  PRIMARY KEY (id_pays, id_artiste, id_personne)
+);
+
 -- Ajouter les contraintes de clés étrangères sur les différentes tables
 ALTER TABLE 
   ADD CONSTRAINT
