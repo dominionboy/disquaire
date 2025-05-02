@@ -291,14 +291,14 @@ ALTER TABLE paiement
    REFERENCES methode_paiement(id_methode_paiement);
 
 ALTER TABLE client
-  ADD CONSTRAINT fk_client_coordonnee
+  ADD CONSTRAINT fk_client_coordonnees
   FOREIGN KEY (id_coordonnee)
-  REFERENCES coordonnee(id_coordonnee)
+  REFERENCES coordonnees(id_coordonnee)
 
 ALTER TABLE reservation
    ADD CONSTRAINT fk_reservation_exemplaire
-   FOREIGN KEY (id_produit, code_interne)
-   REFERENCES exemplaire(id_produit, code_interne);
+   FOREIGN KEY (code_interne, id_produit)
+   REFERENCES exemplaire(code_interne, id_produit);
 
 ALTER TABLE reservation
    ADD CONSTRAINT fk_reservation_client
@@ -312,8 +312,8 @@ ALTER TABLE emprunt
 
 ALTER TABLE emprunt
    ADD CONSTRAINT fk_emprunt_exemplaire
-   FOREIGN KEY (id_produit, code_interne)
-   REFERENCES exemplaire(id_produit, code_interne);
+   FOREIGN KEY (code_interne, id_produit)
+   REFERENCES exemplaire(code_interne, id_produit);
 
 ALTER TABLE exemplaire
    ADD CONSTRAINT fk_exemplaire_produit
@@ -381,17 +381,17 @@ ALTER TABLE commande
   REFERENCES fournisseur(id_fournisseur)
 
 ALTER TABLE fournisseur
-  ADD CONSTRAINT fk_fournisseur_coordonnee
+  ADD CONSTRAINT fk_fournisseur_coordonnees
   FOREIGN KEY (id_coordonnee)
-  REFERENCES coordonnee(id_coordonnee)
+  REFERENCES coordonnees(id_coordonnee)
 
-ALTER TABLE coordonnee
-  ADD CONSTRAINT fk_coordonnee_pays
+ALTER TABLE coordonnees
+  ADD CONSTRAINT fk_coordonnees_pays
   FOREIGN KEY (id_pays)
   REFERENCES pays(id_pays)
 
-ALTER TABLE coordonnee
-  ADD CONSTRAINT fk_coordonnee_localite
+ALTER TABLE coordonnees
+  ADD CONSTRAINT fk_coordonnees_localite
   FOREIGN KEY (npa)
   REFERENCES localite(npa)
 
@@ -424,4 +424,4 @@ ALTER TABLE nationalite
   ADD CONSTRAINT fk_nationalite_artiste
   FOREIGN KEY (id_artiste, id_personne)
   REFERENCES artiste(id_artiste, id_personne)
-  
+
