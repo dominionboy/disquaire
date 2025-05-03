@@ -4,18 +4,18 @@ DROP DATABASE IF EXISTS disquaire_db;
 -- Création de la base de données
 CREATE DATABASE disquaire_db;
 
--- Utiliser la base de données 'horaires_de_bus' pour les requêtes suivantes
+-- Utiliser la base de données 'disquaire_db' pour les requêtes suivantes
 USE disquaire_db;
 
 -- Suppression et création des tables ainsi que leurs colonnes
 DROP TABLE IF EXISTS client;
 CREATE TABLE client (
-  numero_client INT NOT NULL,
+  numero_client INT NOT NULL ,
   id_personne INT NOT NULL,
   nom VARCHAR(50) NOT NULL,
   prenom VARCHAR(50) NOT NULL,
   date_inscription DATE NOT NULL,
-  solde_client FLOAT NOT NULL,
+  solde_client DECIMAL(8,2) NOT NULL,
   id_coordonnee INT NOT NULL,
   PRIMARY KEY (numero_client, id_personne)
 );
@@ -24,20 +24,20 @@ DROP TABLE IF EXISTS coordonnees;
 CREATE TABLE coordonnees (
   id_coordonnee INT NOT NULL,
   rue VARCHAR(50) NOT NULL,
-  numero_rue INT NOT NULL,
-  complement VARCHAR(50) NOT NULL,
+  numero_rue SMALLINT NOT NULL,
+  complement VARCHAR(50) NULL,
   adresse_mail VARCHAR(50) NOT NULL,
-  telephone VARCHAR(12) NOT NULL,
+  telephone VARCHAR(15) NULL,
   id_pays INT NOT NULL,
-  npa INT NOT NULL,
+  npa INT NULL,
   PRIMARY KEY (id_coordonnee)
 );
 
 DROP TABLE IF EXISTS produit;
 CREATE TABLE produit (
   id_produit INT NOT NULL,
-  titre_produit VARCHAR(50) NOT NULL,
-  annee_sortie INT NOT NULL,
+  titre_produit VARCHAR(100) NOT NULL,
+  annee_sortie YEAR NOT NULL,
   id_type INT NOT NULL,
   PRIMARY KEY (id_produit)
 );
@@ -65,7 +65,7 @@ CREATE TABLE emprunt (
   id_produit INT NOT NULL,
   code_interne INT NOT NULL,
   date_depart DATE NOT NULL,
-  date_retour DATE NOT NULL,
+  date_retour DATE NULL,
   prolongation BOOLEAN NOT NULL,
   PRIMARY KEY (id_emprunt, numero_client, id_personne, id_produit, code_interne)
 );
@@ -73,7 +73,7 @@ CREATE TABLE emprunt (
 DROP TABLE IF EXISTS paiement;
 CREATE TABLE paiement (
   id_paiement INT NOT NULL,
-  montant_paiement FLOAT NOT NULL,
+  montant_paiement DECIMAL(8,2) NOT NULL,
   numero_client INT NOT NULL,
   id_personne INT NOT NULL,
   id_methode_paiement INT NOT NULL,
@@ -84,7 +84,7 @@ DROP TABLE IF EXISTS abonnement;
 CREATE TABLE abonnement (
   id_abonnement INT NOT NULL,
   date_activation DATE NOT NULL,
-  date_expiration DATE NOT NULL,
+  date_expiration DATE NULL,
   id_type_abonnement INT NOT NULL,
   PRIMARY KEY (id_abonnement)
 );
@@ -95,8 +95,8 @@ CREATE TABLE artiste (
   id_artiste INT NOT NULL,
   id_personne INT NOT NULL,
   nom_artiste VARCHAR(100) NOT NULL,
-  nom VARCHAR(50) NOT NULL,
-  prenom VARCHAR(50) NOT NULL,
+  nom VARCHAR(50) NULL,
+  prenom VARCHAR(50) NULL,
   PRIMARY KEY (id_artiste, id_personne)
 );
 
@@ -104,9 +104,9 @@ DROP TABLE IF EXISTS commande;
 CREATE TABLE commande (
   id_commande INT NOT NULL,
   id_fournisseur INT NOT NULL,
-  date_livraison DATE NOT NULL,
+  date_livraison DATE NULL,
   date_commande DATE NOT NULL,
-  date_paiement DATE NOT NULL,
+  date_paiement DATE NULL,
   PRIMARY KEY (id_commande, id_fournisseur)
 );
 
@@ -124,7 +124,7 @@ CREATE TABLE quantite (
   id_fournisseur INT NOT NULL,
   id_produit INT NOT NULL,
   quantite INT NOT NULL,
-  prix FLOAT NOT NULL,
+  prix DECIMAL(8,2) NOT NULL,
   PRIMARY KEY (id_commande, id_fournisseur, id_produit)
 );
 
@@ -214,7 +214,7 @@ CREATE TABLE etat (
 
 DROP TABLE IF EXISTS parler;
 CREATE TABLE parler (
-  id_langue INT NOT NULL,
+  id_langue INT NULL,
   id_produit INT NOT NULL,
   PRIMARY KEY (id_langue, id_produit)
 );
@@ -245,7 +245,7 @@ DROP TABLE IF EXISTS activite;
 CREATE TABLE activite (
   id_artiste INT NOT NULL,
   id_personne INT NOT NULL,
-  id_type_artiste INT NOT NULL,
+  id_type_artiste INT NULL,
   PRIMARY KEY (id_artiste, id_personne, id_type_artiste)
 );
 
@@ -258,7 +258,7 @@ CREATE TABLE type_artiste (
 
 DROP TABLE IF EXISTS nationalite;
 CREATE TABLE nationalite (
-  id_pays INT NOT NULL,
+  id_pays INT NULL,
   id_artiste INT NOT NULL,
   id_personne INT NOT NULL,
   PRIMARY KEY (id_pays, id_artiste, id_personne)
