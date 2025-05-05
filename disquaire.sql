@@ -343,57 +343,57 @@ ALTER TABLE parler
 ALTER TABLE produit
   ADD CONSTRAINT fk_produit_type
   FOREIGN KEY (id_type)
-  REFERENCES type(id_type)
+  REFERENCES type(id_type);
 
 ALTER TABLE disponible
   ADD CONSTRAINT fk_disponible_format
   FOREIGN KEY (id_format)
-  REFERENCES format(id_format)
+  REFERENCES format(id_format);
 
 ALTER TABLE disponible
   ADD CONSTRAINT fk_disponible_produit
   FOREIGN KEY (id_produit)
-  REFERENCES produit(id_produit)
+  REFERENCES produit(id_produit);
 
 ALTER TABLE categorie
   ADD CONSTRAINT fk_categorie_produit
   FOREIGN KEY (id_produit)
-  REFERENCES produit(id_produit)
+  REFERENCES produit(id_produit);
 
 ALTER TABLE categorie
   ADD CONSTRAINT fk_categorie_genre
   FOREIGN KEY (id_genre)
-  REFERENCES genre(id_genre)
+  REFERENCES genre(id_genre);
 
 ALTER TABLE quantite
   ADD CONSTRAINT fk_quantite_commande
   FOREIGN KEY (id_commande, id_fournisseur)
-  REFERENCES commande(id_commande, id_fournisseur)
+  REFERENCES commande(id_commande, id_fournisseur);
 
 ALTER TABLE quantite
   ADD CONSTRAINT fk_quantite_produit
   FOREIGN KEY (id_produit)
-  REFERENCES produit(id_produit)
+  REFERENCES produit(id_produit);
 
 ALTER TABLE commande
   ADD CONSTRAINT fk_commande_fournisseur
   FOREIGN KEY (id_fournisseur)
-  REFERENCES fournisseur(id_fournisseur)
+  REFERENCES fournisseur(id_fournisseur);
 
 ALTER TABLE fournisseur
   ADD CONSTRAINT fk_fournisseur_coordonnees
   FOREIGN KEY (id_coordonnee)
-  REFERENCES coordonnees(id_coordonnee)
+  REFERENCES coordonnees(id_coordonnee);
 
 ALTER TABLE coordonnees
   ADD CONSTRAINT fk_coordonnees_pays
   FOREIGN KEY (id_pays)
-  REFERENCES pays(id_pays)
+  REFERENCES pays(id_pays);
 
 ALTER TABLE coordonnees
   ADD CONSTRAINT fk_coordonnees_localite
   FOREIGN KEY (npa)
-  REFERENCES localite(npa)
+  REFERENCES localite(npa);
 
 ALTER TABLE creation
    ADD CONSTRAINT fk_creation_produit
@@ -418,10 +418,10 @@ ALTER TABLE activite
 ALTER TABLE nationalite
   ADD CONSTRAINT fk_nationalite_pays
   FOREIGN KEY (id_pays)
-  REFERENCES pays(id_pays)
+  REFERENCES pays(id_pays);
 
 ALTER TABLE nationalite
   ADD CONSTRAINT fk_nationalite_artiste
   FOREIGN KEY (id_artiste, id_personne)
-  REFERENCES artiste(id_artiste, id_personne)
+  REFERENCES artiste(id_artiste, id_personne);
 
