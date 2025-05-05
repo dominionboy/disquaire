@@ -214,7 +214,7 @@ CREATE TABLE etat (
 
 DROP TABLE IF EXISTS parler;
 CREATE TABLE parler (
-  id_langue INT NULL,
+  id_langue INT not NULL,
   id_produit INT NOT NULL,
   PRIMARY KEY (id_langue, id_produit)
 );
@@ -245,7 +245,7 @@ DROP TABLE IF EXISTS activite;
 CREATE TABLE activite (
   id_artiste INT NOT NULL,
   id_personne INT NOT NULL,
-  id_type_artiste INT NULL,
+  id_type_artiste INT not NULL,
   PRIMARY KEY (id_artiste, id_personne, id_type_artiste)
 );
 
@@ -258,7 +258,7 @@ CREATE TABLE type_artiste (
 
 DROP TABLE IF EXISTS nationalite;
 CREATE TABLE nationalite (
-  id_pays INT NULL,
+  id_pays INT not NULL,
   id_artiste INT NOT NULL,
   id_personne INT NOT NULL,
   PRIMARY KEY (id_pays, id_artiste, id_personne)
