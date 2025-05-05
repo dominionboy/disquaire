@@ -293,7 +293,7 @@ ALTER TABLE paiement
 ALTER TABLE client
   ADD CONSTRAINT fk_client_coordonnees
   FOREIGN KEY (id_coordonnee)
-  REFERENCES coordonnees(id_coordonnee)
+  REFERENCES coordonnees(id_coordonnee);
 
 ALTER TABLE reservation
    ADD CONSTRAINT fk_reservation_exemplaire
