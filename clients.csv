@@ -1,0 +1,367 @@
+,numero_client,id_personne,id_coordonnee,nom,prenom,date_inscription,solde_client,npa,localite,rue,numero_rue,complement,adresse_mail,telephone,pays
+760,182277,438273,360463,Anna,Müller,2023-08-11,0.0,Broggackerweg,7010,Ruggell,574,,Anna.Müller@gmail.com,+49808282112,FRANCE
+106,186385,411649,397331,Sandra,Meier,2021-10-20,7.54,Fürst-Johann-Strasse,7002,Triesen,662,,Sandra.Meier@yahoo.com,+419495336966,FRANCE
+74,186395,454668,348180,Ursula,Schmid,2022-03-08,0.0,Feldkircher Strasse,7005,Schaan,874,,Ursula.Schmid@yahoo.com,+33797317128,FRANCE
+62,192541,436240,356375,Monika,Keller,2024-07-16,0.0,Quellenstrasse,7007,Eschen,338,,Monika.Keller@yahoo.com,+41172638226,FRANCE
+176,122913,415762,366620,Elisabeth,Weber,2021-12-23,0.0,Gafadurastrasse,7006,Planken,514,,Elisabeth.Weber@outlook.com,+41944992281,FRANCE
+725,176161,456723,370718,Claudia,Schneider,2022-03-08,6.57,Kornweg,7001,Vaduz,858,,Claudia.Schneider@gmail.com,+41479625245,FRANCE
+24,167976,432164,344101,Ruth,Huber,2021-07-24,0.0,Schwemmegass,7007,Eschen,714,Bis,Ruth.Huber@gmail.com,+41410830883,FRANCE
+890,157737,411688,352294,Nicole,Meyer,2022-04-10,0.0,Under Ställ,7006,Planken,333,,Nicole.Meyer@yahoo.com,+41258445349,FRANCE
+753,161841,430124,383016,Barbara,Steiner,2021-12-23,0.0,Im Wüerle,7010,Ruggell,130,,Barbara.Steiner@gmail.com,+41283207723,FRANCE
+447,172093,448560,391214,Andrea,da Silva,2023-07-30,0.0,Winkel,7011,Schellenberg,345,,Andrea.da Silva@gmail.com,+41429963321,FRANCE
+536,190531,456759,329776,Verena,Fischer,2024-03-14,2.97,Plankner Strasse,7005,Schaan,29,,Verena.Fischer@yahoo.com,+419285347385,FRANCE
+499,182342,444473,323652,Silvia,Gerber,2022-07-18,0.0,Auf der Kaserna,7006,Planken,683,,Silvia.Gerber@gmail.com,+41860223547,FRANCE
+133,188492,452669,393289,Daniela,Baumann,2023-09-16,6.78,Franz-Josef-Oehri-Strasse,7008,Mauren,544,,Daniela.Baumann@yahoo.com,+41186472509,FRANCE
+734,186450,454721,395338,Christine,Brunner,2021-06-21,0.0,Rennhofstrasse,7008,Mauren,171,,Christine.Brunner@yahoo.com,+41359190593,FRANCE
+654,151638,446533,325721,Marie,Frei,2024-08-31,0.0,Heiligkreuz,7010,Ruggell,700,,Marie.Frei@yahoo.com,+41990517324,FRANCE
+183,157782,440394,327776,Laura,Zimmermann,2024-02-29,9.34,Dohlenweg,7001,Vaduz,377,,Laura.Zimmermann@yahoo.com,+415377859671,FRANCE
+125,143456,432225,331873,Karin,Moser,2021-11-30,0.0,Speckibünt,7005,Schaan,190,,Karin.Moser@outlook.com,+41493535329,FRANCE
+591,135270,450659,378983,Marianne,Graf,2022-06-01,0.0,Kratzera,7009,Gamprin,964,,Marianne.Graf@yahoo.com,+498398930018,FRANCE
+419,145516,438380,395369,Sarah,Widmer,2021-07-21,0.0,Haldenweg,7002,Triesen,939,,Sarah.Widmer@gmail.com,+41643307617,FRANCE
+432,137346,419952,325747,Brigitte,Wyss,2024-04-27,7.4,Im Fetzer,7005,Schaan,294,,Brigitte.Wyss@outlook.com,+41177057893,FRANCE
+522,190596,442494,323701,Susanne,Ferreira,2023-12-30,9.6,St. Martinsweg,7001,Vaduz,852,,Susanne.Ferreira@gmail.com,+41443064422,FRANCE
+84,198789,460932,338051,Rita,Pereira,2021-06-13,0.0,Alpeltiweg,7004,Triesenberg,819,,Rita.Pereira@gmail.com,+49797714534,FRANCE
+756,186504,467079,354438,Erika,Roth,2022-10-09,7.55,Feldstrasse,7002,Triesen,246,,Erika.Roth@yahoo.com,+41392501367,FRANCE
+146,159884,430217,393351,Katharina,Baumgartner,2025-01-26,0.0,Schaaner Strasse,7007,Eschen,337,,Katharina.Baumgartner@outlook.com,+41228718713,FRANCE
+908,155801,479379,311437,Sara,Bachmann,2022-02-17,7.85,Goldene Boos-Gasse,7007,Eschen,155,,Sara.Bachmann@gmail.com,+33455180411,FRANCE
+103,125086,497827,393360,Margrit,Bucher,2024-03-21,0.0,Unterm Schloss,7003,Balzers,526,,Margrit.Bucher@yahoo.com,+41202246277,FRANCE
+252,147615,430248,385169,Manuela,Suter,2023-01-26,9.75,Hub,7007,Eschen,494,,Manuela.Suter@gmail.com,+41382476421,FRANCE
+21,151710,489649,327831,Esther,Berger,2025-03-09,10.65,Mühlegass,7009,Gamprin,723,,Esther.Berger@yahoo.com,+41797145228,FRANCE
+267,129192,415933,395418,Anita,Kaufmann,2023-02-08,0.0,Stotz,7011,Schellenberg,798,,Anita.Kaufmann@outlook.com,+41946233491,FRANCE
+339,118968,489665,366747,Heidi,Studer,2024-02-19,0.0,Langacker,7010,Ruggell,273,,Heidi.Studer@yahoo.com,+41580872343,FRANCE
+342,131262,415947,374944,Beatrice,Lüthi,2023-08-27,0.0,Langgasse,7002,Triesen,997,,Beatrice.Lüthi@gmail.com,+41858017945,FRANCE
+45,145620,461014,311461,Julia,Bühler,2024-06-23,0.0,Kartennaweg,7001,Vaduz,353,,Julia.Bühler@outlook.com,+41147478684,FRANCE
+638,133335,499927,344229,Rosmarie,Kunz,2022-07-24,0.0,Staudengasse,7007,Eschen,763,,Rosmarie.Kunz@yahoo.com,+41193937566,FRANCE
+549,133341,497880,325803,Ana,dos Santos,2022-06-25,0.0,Alte Landstrasse,7002,Triesen,929,,Ana.dos Santos@gmail.com,+41143308972,FRANCE
+487,137444,471261,399541,Sonja,Lehmann,2023-11-16,0.0,Farabodastrasse,7004,Triesenberg,289,,Sonja.Lehmann@outlook.com,+41393502893,FRANCE
+780,166117,485601,389307,Doris,Hofer,2022-08-31,0.0,Sägagass,7002,Triesen,563,,Doris.Hofer@gmail.com,+41609161391,FRANCE
+795,135398,454890,342211,Yvonne,Krasniqi,2023-07-22,0.0,Dorf,7011,Schellenberg,726,,Yvonne.Krasniqi@yahoo.com,+41350537910,FRANCE
+118,162033,448748,372933,Eva,Marti,2021-03-22,9.67,Dr. Josef Hoop-Strasse,7007,Eschen,121,,Eva.Marti@yahoo.com,+41961384639,FRANCE
+281,162035,456958,381126,Martina,Rodrigues,2024-04-05,0.0,Galenburst,7008,Mauren,81,,Martina.Rodrigues@outlook.com,+41954187978,FRANCE
+713,147704,444679,397511,Jacqueline,Koch,2024-02-07,11.47,Winkelgass,7005,Schaan,8,,Jacqueline.Koch@gmail.com,+498220752081,FRANCE
+883,166139,495896,348365,Elena,Christen,2021-11-05,0.0,In der Blacha,7006,Planken,463,,Elena.Christen@yahoo.com,+41103577815,FRANCE
+406,114939,452899,329933,Alexandra,Arnold,2024-02-25,0.0,Noflerstrasse,7010,Ruggell,211,,Alexandra.Arnold@outlook.com,+415184139481,FRANCE
+673,137471,485680,340178,Gabriela,Berisha,2022-03-22,6.37,Widaustrasse,7010,Ruggell,40,,Gabriela.Berisha@yahoo.com,+41205142238,FRANCE
+674,176387,424241,395476,Franziska,Frey,2023-10-02,5.41,Schwefelstrasse,7001,Vaduz,803,,Franziska.Frey@gmail.com,+49712868062,FRANCE
+468,114949,493873,387301,Irene,Wüthrich,2021-07-08,4.29,Sportfeldstrasse,7008,Mauren,730,,Irene.Wüthrich@gmail.com,+41442314980,FRANCE
+86,166152,432435,366828,Fabienne,Egli,2025-02-24,0.0,Forellenweg,7001,Vaduz,1037,,Fabienne.Egli@outlook.com,+41482660584,FRANCE
+560,151819,454966,393454,Cornelia,Zürcher,2023-02-26,0.0,Innere Wiesen,7007,Eschen,270,,Cornelia.Zürcher@yahoo.com,+49475685122,FRANCE
+403,147726,416054,344309,Sabrina,Gashi,2023-10-12,0.0,Ruggeller Strasse,7009,Gamprin,294,,Sabrina.Gashi@outlook.com,+41393892103,FRANCE
+138,139534,485688,313590,Isabelle,Fuchs,2023-03-19,0.0,Unterfeld,7002,Triesen,108,,Isabelle.Fuchs@yahoo.com,+49305707282,FRANCE
+828,117007,422198,327929,Patricia,Fernandes,2024-05-18,6.15,Schellenbergstrasse,7010,Ruggell,737,,Patricia.Fernandes@gmail.com,+41130402579,FRANCE
+764,182550,467264,336122,Nathalie,Pfister,2025-01-19,7.71,Halaweg,7011,Schellenberg,688,,Nathalie.Pfister@outlook.com,+495484540185,FRANCE
+869,143642,487753,317691,Melanie,Gasser,2023-06-03,0.0,Oberdorf,7008,Mauren,994,,Melanie.Gasser@yahoo.com,+41424118561,FRANCE
+876,139548,422223,372988,Rosa,Stalder,2022-09-01,0.0,Schaaner Strasse,7009,Gamprin,326,,Rosa.Stalder@outlook.com,+41456347945,FRANCE
+744,196893,450895,332050,Corinne,Schweizer,2023-01-16,0.0,Murasträssle,7003,Balzers,893,,Corinne.Schweizer@yahoo.com,+41645110061,FRANCE
+605,127277,430448,370964,Nina,Koller,2024-07-02,0.0,Valünastrasse,7005,Schaan,412,,Nina.Koller@outlook.com,+41159705402,FRANCE
+120,166190,440707,368927,Angela,Martin,2024-04-06,10.7,Schlattmadweg,7010,Ruggell,265,,Angela.Martin@gmail.com,+41551688507,FRANCE
+333,135476,416132,393503,Nadine,Peter,2024-02-11,0.0,Oberbühl,7006,Planken,1002,,Nadine.Peter@outlook.com,+49825837884,FRANCE
+779,192832,424325,319786,Jessica,Gomes,2021-06-13,0.0,Gewerbeweg,7001,Vaduz,1033,,Jessica.Gomes@yahoo.com,+33272171327,FRANCE
+76,164177,461191,395567,Emma,Bieri,2024-12-30,0.0,Fanalwegle,7005,Schaan,78,,Emma.Bieri@yahoo.com,+41529779010,FRANCE
+108,129361,498057,330046,Vanessa,Maurer,2022-03-05,0.0,Bachweg,7007,Eschen,882,,Vanessa.Maurer@yahoo.com,+41362656082,FRANCE
+840,149842,457101,358727,Lara,Wenger,2023-11-16,0.0,Kulmstrasse,7004,Triesenberg,53,,Lara.Wenger@outlook.com,+41521451866,FRANCE
+234,182609,424339,352586,Sophie,Kohler,2024-12-02,2.99,Under Rüttigass,7001,Vaduz,556,,Sophie.Kohler@yahoo.com,+41951306593,FRANCE
+853,127319,440726,323920,Edith,Burri,2024-12-21,0.0,Wislistrasse,7004,Triesenberg,897,,Edith.Burri@yahoo.com,+49623882596,FRANCE
+358,129378,471453,371027,Lea,Furrer,2022-09-25,0.0,Im Reberle,7005,Schaan,714,,Lea.Furrer@outlook.com,+412794809700,FRANCE
+207,131431,493985,366934,Alice,Michel,2021-08-08,5.31,Am Exerzierplatz,7001,Vaduz,180,,Alice.Michel@yahoo.com,+49283568486,FRANCE
+701,133488,467365,338265,Gertrud,Martins,2023-10-10,0.0,Theresienweg,7008,Mauren,798,,Gertrud.Martins@gmail.com,+41955838824,FRANCE
+585,135541,457130,368990,Caroline,Vogel,2024-07-07,0.0,Sebastianweg,7007,Eschen,276,,Caroline.Vogel@outlook.com,+41289735023,FRANCE
+48,168310,469424,375135,Anne,Leuenberger,2022-06-03,0.0,Schaanerstrasse,7001,Vaduz,746,,Anne.Leuenberger@gmail.com,+49147804530,FRANCE
+529,168314,483762,364911,Tanja,Schär,2023-01-12,0.0,Im Tröxle,7005,Schaan,629,,Tanja.Schär@outlook.com,+41160604535,FRANCE
+214,121216,489910,387454,Regula,Egger,2024-10-16,6.73,Badstoba,7002,Triesen,745,,Regula.Egger@yahoo.com,+33831185271,FRANCE
+824,164230,485815,371070,Denise,Garcia,2021-11-03,0.0,Johann Georg Helbert-Strasse,7007,Eschen,737,,Denise.Garcia@gmail.com,+419417154941,FRANCE
+200,168344,496057,364935,Carmen,Rüegg,2024-03-12,0.0,Brühlgasse,7007,Eschen,100,,Carmen.Rüegg@outlook.com,+41240109954,FRANCE
+197,149921,465338,364957,Simone,Lopes,2024-09-25,0.0,Poststrasse,7010,Ruggell,817,,Simone.Lopes@gmail.com,+41635988357,FRANCE
+213,176546,416186,383400,Céline,Hofmann,2023-06-11,0.0,Aubach,7003,Balzers,686,,Céline.Hofmann@yahoo.com,+415036765589,FRANCE
+864,154025,483772,379306,Sabine,Hunziker,2022-05-17,0.0,Freiendorfstrasse,7008,Mauren,485,,Sabine.Hunziker@gmail.com,+41151693726,FRANCE
+683,166316,461244,315822,Petra,Ammann,2025-02-18,0.0,Hellwies,7008,Mauren,362,,Petra.Ammann@gmail.com,+41606638499,FRANCE
+580,127404,467391,315827,Jasmin,Hess,2023-04-03,13.58,Prufatschengstrasse,7004,Triesenberg,654,,Jasmin.Hess@gmail.com,+41180324782,FRANCE
+437,143791,459201,352699,Catherine,Tanner,2022-05-07,0.0,Rebenweg,7005,Schaan,115,,Catherine.Tanner@outlook.com,+416854689213,FRANCE
+32,141753,496067,393673,Tamara,Hug,2024-03-01,0.0,Bächlegatterweg,7002,Triesen,492,,Tamara.Hug@gmail.com,+41617740736,FRANCE
+151,164283,428486,346580,Susanna,Kälin,2024-04-21,0.0,Industriestrasse,7005,Schaan,100,,Susanna.Kälin@gmail.com,+41866482627,FRANCE
+729,182729,467406,328151,Marina,Schuler,2021-08-09,0.0,Im Neugut,7005,Schaan,389,,Marina.Schuler@outlook.com,+41654705096,FRANCE
+478,190922,487894,324085,Nadia,Sutter,2021-05-30,0.0,Rietle,7003,Balzers,223,,Nadia.Sutter@yahoo.com,+41330516950,FRANCE
+38,145868,446941,371196,Stefanie,Wagner,2023-07-25,0.0,Werdenbergerweg,7001,Vaduz,642,Bis,Stefanie.Wagner@outlook.com,+41558557657,FRANCE
+564,192975,455134,324094,Lisa,Gisler,2021-12-01,0.0,Ziegeleistrasse,7007,Eschen,1044,,Lisa.Gisler@gmail.com,+41379150815,FRANCE
+888,117205,465375,369155,Diana,Blaser,2024-12-01,0.0,Äussere Wiesen,7007,Eschen,1037,,Diana.Blaser@gmail.com,+33689859045,FRANCE
+870,197080,430571,391693,Michelle,Alves,2021-05-23,0.0,Kappileweg,7009,Gamprin,966,,Michelle.Alves@yahoo.com,+41505082344,FRANCE
+562,158184,440814,371215,Chantal,Oliveira,2024-11-17,0.0,Gnetsch,7003,Balzers,135,,Chantal.Oliveira@outlook.com,+41173847017,FRANCE
+216,137708,428527,383504,Chiara,Hauser,2023-08-22,0.0,Runkelsstrasse,7002,Triesen,557,,Chiara.Hauser@yahoo.com,+33277015025,FRANCE
+466,113133,485898,311827,Christina,Schmidt,2021-06-09,0.0,Im Ried,7004,Triesenberg,201,,Christina.Schmidt@yahoo.com,+41784484852,FRANCE
+809,139758,430606,393748,Sofia,Ribeiro,2022-06-07,4.98,Kurrstrasse,7004,Triesenberg,87,Bis,Sofia.Ribeiro@outlook.com,+41155388415,FRANCE
+28,162297,457236,356884,Rahel,Silva,2023-10-18,15.25,Junkerriet,7003,Balzers,548,Bis,Rahel.Silva@gmail.com,+33450839044,FRANCE
+616,152061,434718,311838,Therese,Gonçalves,2021-10-26,0.0,Wiesenstrasse,7007,Eschen,349,,Therese.Gonçalves@yahoo.com,+41233970183,FRANCE
+189,174595,444963,371232,Johanna,Favre,2024-01-11,0.0,Undersilumstrasse,7004,Triesenberg,1041,,Johanna.Favre@yahoo.com,+33209707532,FRANCE
+586,182791,434725,381475,Lena,Hartmann,2024-04-06,0.0,Ottobeurenweg,7008,Mauren,622,Bis,Lena.Hartmann@outlook.com,+49769468943,FRANCE
+293,154120,426536,397863,Anja,Flückiger,2021-08-05,0.0,Heuwies,7008,Mauren,654,,Anja.Flückiger@outlook.com,+33315798036,FRANCE
+44,178696,473646,311847,Olivia,Pinto,2021-09-13,0.0,Delehala,7008,Mauren,264,,Olivia.Pinto@gmail.com,+49418302485,FRANCE
+592,141842,434735,371249,Charlotte,da Costa,2022-10-16,13.33,Landammannstrasse,7007,Eschen,1,,Charlotte.da Costa@yahoo.com,+33123646494,FRANCE
+596,127507,471604,369207,Mia,Lang,2023-03-23,0.0,Kanalstrasse,7001,Vaduz,554,,Mia.Lang@yahoo.com,+41767246882,FRANCE
+95,121365,481854,320055,Valentina,Senn,2021-11-16,8.41,Austrasse,7001,Vaduz,206,,Valentina.Senn@yahoo.com,+41632572451,FRANCE
+17,150038,432703,399929,Alina,Stucki,2024-12-19,9.06,Alte Churerstrasse,7003,Balzers,352,,Alina.Stucki@gmail.com,+49191375910,FRANCE
+856,111130,459342,318014,Janine,Teixeira,2021-12-02,0.0,Brunnenbritschen,7008,Mauren,123,,Janine.Teixeira@yahoo.com,+41223470118,FRANCE
+545,186907,422479,389696,Jana,Siegenthaler,2021-09-14,0.0,Weidriet,7001,Vaduz,113,,Jana.Siegenthaler@yahoo.com,+33852310578,FRANCE
+365,147998,410194,391750,Maja,Zbinden,2024-02-01,4.84,Oberfeld,7002,Triesen,679,,Maja.Zbinden@outlook.com,+41527766079,FRANCE
+402,123423,438868,379468,Jennifer,Marques,2023-11-20,0.0,Insel,7003,Balzers,600,,Jennifer.Marques@yahoo.com,+499497221711,FRANCE
+229,135719,479835,348775,Monique,Fankhauser,2024-05-02,7.87,Talweg,7010,Ruggell,110,,Monique.Fankhauser@outlook.com,+41567302741,FRANCE
+730,186919,442977,352881,Lina,Odermatt,2022-04-29,-0.25,Höfle,7003,Balzers,649,,Lina.Odermatt@yahoo.com,+41270170717,FRANCE
+324,117294,485991,385655,Judith,Sommer,2023-03-31,10.17,Gätterweg,7005,Schaan,674,,Judith.Sommer@outlook.com,+49241885799,FRANCE
+868,143921,430699,338557,Eveline,Zaugg,2022-02-14,5.37,Silumstrasse,7004,Triesenberg,439,,Eveline.Zaugg@outlook.com,+41196455021,FRANCE
+283,141881,453230,387723,Pia,Scherrer,2025-01-23,10.27,Sax,7002,Triesen,937,,Pia.Scherrer@outlook.com,+41238162542,FRANCE
+704,189001,430707,326288,Aline,Shala,2022-01-09,10.12,Kappele,7003,Balzers,1050,,Aline.Shala@gmail.com,+41700177017,FRANCE
+190,176715,436867,332444,Giulia,Imhof,2023-02-24,0.0,Im Glenn,7008,Mauren,100,,Giulia.Imhof@yahoo.com,+413925789314,FRANCE
+698,191051,477833,318115,Adelheid,Santos,2022-09-22,0.0,Landstrasse,7002,Triesen,961,,Adelheid.Santos@yahoo.com,+411833372304,FRANCE
+78,195167,475789,336555,Bettina,Küng,2023-06-30,0.0,Klosterwingert,7008,Mauren,300,,Bettina.Küng@outlook.com,+41621783697,FRANCE
+23,129640,465558,377517,Michèle,Portmann,2025-02-07,8.02,Kasernastrasse,7006,Planken,168,Bis,Michèle.Portmann@gmail.com,+41402891418,FRANCE
+144,186994,481943,357041,Nora,Rodriguez,2023-06-27,11.7,Bergerwald,7011,Schellenberg,365,,Nora.Rodriguez@gmail.com,+49416719516,FRANCE
+373,176760,455320,359093,Elisa,Vogt,2022-08-30,0.0,Steckergass,7005,Schaan,916,,Elisa.Vogt@outlook.com,+41286646945,FRANCE
+338,166523,494244,395968,Eliane,Bajrami,2021-08-07,0.0,Sandgrube,7008,Mauren,375,,Eliane.Bajrami@gmail.com,+41897948321,FRANCE
+90,135804,484018,314053,Selina,Schärer,2023-10-14,0.0,Rainweg,7001,Vaduz,362,,Selina.Schärer@outlook.com,+41689707688,FRANCE
+306,148095,426675,365256,Françoise,Ackermann,2022-12-27,0.0,Ritsch,7003,Balzers,429,,Françoise.Ackermann@outlook.com,+41279495340,FRANCE
+594,119427,420532,320208,Livia,Scheidegger,2024-08-15,6.52,Mariahilf,7003,Balzers,974,,Livia.Scheidegger@gmail.com,+41851149485,FRANCE
+851,148104,469685,340691,Carla,Morina,2024-06-21,8.02,Bödastrasse,7004,Triesenberg,524,,Carla.Morina@yahoo.com,+41232706733,FRANCE
+251,117386,410298,324309,Linda,Schwarz,2022-01-13,12.61,Kasperigass,7001,Vaduz,739,,Linda.Schwarz@yahoo.com,+41430066351,FRANCE
+506,137871,494267,340695,Renate,Ramadani,2024-12-04,-0.06,Binnendamm,7005,Schaan,688,,Renate.Ramadani@yahoo.com,+41876470960,FRANCE
+385,170640,463551,336599,Leonie,Jost,2023-07-14,0.0,Im Feld,7007,Eschen,682,,Leonie.Jost@outlook.com,+41688038576,FRANCE
+87,195220,477891,330457,Dora,Nguyen,2023-09-19,4.59,In der Betzi,7010,Ruggell,315,,Dora.Nguyen@outlook.com,+41361837235,FRANCE
+233,156308,492234,381674,Christiane,Schenk,2025-01-16,0.0,Sonnblickstrasse,7001,Vaduz,68,,Christiane.Schenk@yahoo.com,+41715246275,FRANCE
+60,170649,498393,330481,Helena,Liechti,2024-02-01,0.0,Oberau,7003,Balzers,238,,Helena.Liechti@outlook.com,+33690512582,FRANCE
+383,184986,426717,365324,Mirjam,Rey,2022-06-17,2.87,Waldstrasse,7007,Eschen,298,Bis,Mirjam.Rey@yahoo.com,+41360723143,FRANCE
+518,141980,445153,348940,Nadja,Costa,2023-02-19,6.64,Schulgass,7005,Schaan,109,Bis,Nadja.Costa@outlook.com,+49185903816,FRANCE
+111,180892,428776,344859,Madeleine,Kuhn,2023-03-07,0.0,Sandweg,7002,Triesen,72,Bis,Madeleine.Kuhn@yahoo.com,+41827316938,FRANCE
+219,117405,418550,328476,Martha,Schumacher,2023-03-23,0.0,Rosenstrasse,7008,Mauren,833,,Martha.Schumacher@gmail.com,+41602761939,FRANCE
+50,137887,428792,396063,Bernadette,Hofstetter,2022-10-25,11.42,Plattenbach,7003,Balzers,528,,Bernadette.Hofstetter@outlook.com,+41795701977,FRANCE
+530,139939,420604,369447,Elsbeth,Hasler,2024-09-27,16.59,Im Lutzfeld,7008,Mauren,10,,Elsbeth.Hasler@gmail.com,+41295344870,FRANCE
+834,170670,445184,387882,Hanna,Weiss,2021-06-18,5.83,Gatter,7003,Balzers,202,,Hanna.Weiss@gmail.com,+33788134632,FRANCE
+444,115376,494346,391989,Alessia,Giger,2021-12-23,0.0,Obergass,7005,Schaan,138,,Alessia.Giger@outlook.com,+41883245805,FRANCE
+831,162481,424729,375605,Astrid,Seiler,2023-12-01,0.0,Im unteren Rossfeld,7005,Schaan,357,,Astrid.Seiler@gmail.com,+41124078829,FRANCE
+47,131764,488222,351042,Stephanie,Staub,2024-02-03,4.74,Philosophenweg,7004,Triesenberg,157,,Stephanie.Staub@outlook.com,+41843383546,FRANCE
+212,191156,432928,342855,Lucia,Stocker,2022-06-19,0.0,Vordersilumstrasse,7004,Triesenberg,840,,Lucia.Stocker@gmail.com,+33194415375,FRANCE
+30,152248,457506,353121,Brigitta,Röthlisberger,2023-03-04,0.0,Hinterschloss,7011,Schellenberg,7,,Brigitta.Röthlisberger@yahoo.com,+41365665041,FRANCE
+503,180922,420643,334692,Valérie,Herzog,2024-10-16,4.93,Alberweg,7003,Balzers,127,,Valérie.Herzog@yahoo.com,+41264792853,FRANCE
+336,139964,424743,363364,Ramona,Lüscher,2023-07-03,0.0,St. Markusgasse,7001,Vaduz,688,,Ramona.Lüscher@gmail.com,+41234703639,FRANCE
+822,195281,471847,326502,Cristina,Schnyder,2022-06-17,0.0,Auring,7001,Vaduz,600,,Cristina.Schnyder@gmail.com,+41744586012,FRANCE
+163,195284,434994,349030,Iris,Wolf,2022-03-31,6.86,Kanalstrasse,7003,Balzers,690,,Iris.Wolf@gmail.com,+41158733092,FRANCE
+37,119516,447285,332652,Priska,Haas,2024-01-06,5.68,Industriestrasse,7008,Mauren,141,,Priska.Haas@gmail.com,+49176165670,FRANCE
+510,189152,498486,330604,Julie,Wittwer,2024-06-30,0.0,Böler,7007,Eschen,275,,Julie.Wittwer@outlook.com,+41798903081,FRANCE
+785,189165,461621,365424,Sonia,Dias,2024-01-18,5.34,Saxgass,7005,Schaan,540,,Sonia.Dias@yahoo.com,+415543240494,FRANCE
+96,137972,430918,322420,Regina,Schwab,2022-02-19,0.0,Pfandbrunnen,7008,Mauren,118,,Regina.Schwab@yahoo.com,+41215765809,FRANCE
+553,156407,473926,371576,Luana,Betschart,2022-01-03,4.49,Am Bühel,7008,Mauren,455,,Luana.Betschart@gmail.com,+41129985330,FRANCE
+253,135929,441164,353146,Paula,Fässler,2021-04-28,0.0,Essanestrasse,7007,Eschen,468,,Paula.Fässler@yahoo.com,+41627882802,FRANCE
+812,129789,490326,342913,Monica,Stöckli,2024-11-27,0.0,Bachtalwingert,7008,Mauren,487,,Monica.Stöckli@yahoo.com,+411985862451,FRANCE
+79,160515,480100,316294,Lorena,Zehnder,2023-07-27,0.0,Äulestrasse,7001,Vaduz,313,,Lorena.Zehnder@outlook.com,+49670327605,FRANCE
+682,142094,428901,344991,Magdalena,Stadelmann,2023-11-12,0.0,Lettstrasse,7001,Vaduz,534,,Magdalena.Stadelmann@yahoo.com,+33917343030,FRANCE
+622,129819,426858,381858,Dominique,Fernandez,2022-04-17,0.0,Kappeleweg,7008,Mauren,764,,Dominique.Fernandez@gmail.com,+41928238397,FRANCE
+263,142118,492395,324535,Isabel,Käser,2024-02-24,7.75,Matustrasse,7004,Triesenberg,523,,Isabel.Käser@yahoo.com,+33775789395,FRANCE
+677,142120,412529,373696,Marion,Marty,2021-12-01,0.0,Marktgass,7001,Vaduz,288,,Marion.Marty@yahoo.com,+41429228890,FRANCE
+148,187190,467830,318403,Patrizia,Bühlmann,2023-02-01,7.12,Im Katzarank,7005,Schaan,252,,Patrizia.Bühlmann@gmail.com,+415302309725,FRANCE
+625,154422,494458,385988,Stéphanie,Martinez,2023-02-14,0.0,Im Wingert,7005,Schaan,299,,Stéphanie.Martinez@gmail.com,+49934062943,FRANCE
+540,113468,457605,357320,Emilie,Schaller,2021-06-03,4.43,Grüschaweg,7004,Triesenberg,123,,Emilie.Schaller@gmail.com,+33437519201,FRANCE
+409,129862,451470,324559,Beatrix,Gonzalez,2021-08-11,7.83,Oberau,7001,Vaduz,790,,Beatrix.Gonzalez@gmail.com,+49743959398,FRANCE
+248,189257,498579,334805,Vera,Weibel,2024-06-03,0.0,Meder,7007,Eschen,885,,Vera.Weibel@gmail.com,+41295725934,FRANCE
+679,191310,490388,324573,Hedwig,de Oliveira,2022-08-22,0.0,Meierhofstrasse,7002,Triesen,982,,Hedwig.de Oliveira@outlook.com,+41796349300,FRANCE
+507,138070,435096,365538,Miriam,Kaiser,2024-03-21,2.76,Steinbruch,7009,Gamprin,1039,,Miriam.Kaiser@gmail.com,+41247483253,FRANCE
+170,156510,461721,383977,Emilia,Häfliger,2023-08-03,0.0,Alte Landstrasse,7001,Vaduz,11,,Emilia.Häfliger@gmail.com,+49262722423,FRANCE
+394,170847,492444,353261,Sophia,Ulrich,2023-11-28,0.0,Kreuzstrasse,7010,Ruggell,256,,Sophia.Ulrich@gmail.com,+49385139579,FRANCE
+109,199520,457645,388081,Theresia,Steiger,2022-06-04,1.72,Büdamistrasse,7004,Triesenberg,792,,Theresia.Steiger@gmail.com,+41882340741,FRANCE
+346,148321,482224,345081,Noemi,Näf,2022-08-23,0.0,Knebelbrugg,7002,Triesen,735,,Noemi.Näf@gmail.com,+41452213644,FRANCE
+268,197474,467895,353288,Olga,Gloor,2024-12-07,3.68,Am Bach,7002,Triesen,529,,Olga.Gloor@gmail.com,+41487197585,FRANCE
+843,136055,422847,367628,Rebecca,Rohner,2023-02-06,0.0,Sternenbergstrasse,7004,Triesenberg,86,,Rebecca.Rohner@yahoo.com,+411526737812,FRANCE
+693,119676,478150,345102,Véronique,Beck,2024-10-30,0.0,Kopferweg,7010,Ruggell,943,Bis,Véronique.Beck@yahoo.com,+33949197722,FRANCE
+279,197510,433096,396313,Myriam,Rohrer,2023-01-26,0.0,Torbariet,7003,Balzers,242,Bis,Myriam.Rohrer@yahoo.com,+41736220063,FRANCE
+648,181128,461782,381986,Katja,Rossi,2022-02-02,0.0,Unterm Rain,7006,Planken,112,,Katja.Rossi@yahoo.com,+416551837606,FRANCE
+919,189320,416730,390183,Annemarie,Stettler,2024-12-15,10.43,Kanalstrasse,7010,Ruggell,647,,Annemarie.Stettler@gmail.com,+41873184168,FRANCE
+273,181138,426990,357416,Lia,Lutz,2022-02-02,0.0,Kloggerweg,7011,Schellenberg,782,,Lia.Lutz@gmail.com,+41799925164,FRANCE
+393,193436,498684,365618,Jeannette,Bosshard,2024-02-18,7.43,Güggelhalde,7007,Eschen,369,,Jeannette.Bosshard@outlook.com,+41795515838,FRANCE
+159,181149,418814,353330,Agnes,Mäder,2022-03-29,0.0,Wüerleweg,7010,Ruggell,602,,Agnes.Mäder@yahoo.com,+41839150528,FRANCE
+43,148381,424964,353332,Sibylle,Stutz,2021-12-01,0.0,Betzibünt,7010,Ruggell,294,,Sibylle.Stutz@yahoo.com,+33539179974,FRANCE
+778,144287,490503,373819,Larissa,Bernasconi,2021-05-22,0.0,Lettenbünt,7010,Ruggell,273,,Larissa.Bernasconi@yahoo.com,+41687649741,FRANCE
+879,111528,441357,336958,Helene,Lanz,2022-06-24,1.38,Lettenstrasse,7010,Ruggell,456,,Helene.Lanz@yahoo.com,+41480449498,FRANCE
+412,115630,488461,324679,Francesca,Walker,2021-04-08,0.0,Im Sand,7002,Triesen,851,,Francesca.Walker@outlook.com,+498336634859,FRANCE
+620,144304,482325,388175,Sylvie,Brügger,2025-01-14,5.22,Spangelswesweg,7005,Schaan,553,,Sylvie.Brügger@yahoo.com,+41582280173,FRANCE
+145,187319,498713,382036,Isabella,Meister,2024-08-28,0.0,Engistrasse,7004,Triesenberg,1025,,Isabella.Meister@gmail.com,+49566752238,FRANCE
+722,160697,478240,384084,Mara,Aeschlimann,2022-03-18,0.0,Hagstrasse,7004,Triesenberg,259,,Mara.Aeschlimann@yahoo.com,+41308558843,FRANCE
+647,144318,496678,361561,Christa,Steffen,2023-12-12,0.0,Undera Forst,7005,Schaan,169,,Christa.Steffen@outlook.com,+415276687358,FRANCE
+659,134081,416837,394340,Veronika,Jenni,2021-05-11,0.0,Guet,7009,Gamprin,332,,Veronika.Jenni@yahoo.com,+41880651262,FRANCE
+256,136131,410695,359525,Elsa,Eichenberger,2023-06-14,7.74,Egertastrasse,7001,Vaduz,617,,Elsa.Eichenberger@outlook.com,+41790318092,FRANCE
+486,183238,443464,390245,Liliane,Grob,2023-05-09,0.0,Rätikonstrasse,7001,Vaduz,855,,Liliane.Grob@yahoo.com,+41146936846,FRANCE
+634,185291,459851,388199,Marlise,Sigrist,2023-09-03,6.58,Ober Au,7009,Gamprin,995,,Marlise.Sigrist@outlook.com,+412615215123,FRANCE
+640,197614,449612,337004,Milena,Blum,2022-05-02,0.0,Fürst-Johannes-Strasse,7001,Vaduz,672,,Milena.Blum@gmail.com,+41323687448,FRANCE
+436,154617,427085,353394,Sylvia,Lopez,2024-03-07,0.0,Trachter,7002,Triesen,324,,Sylvia.Lopez@gmail.com,+41259103777,FRANCE
+878,130044,422990,345202,Fiona,Ziegler,2023-10-12,5.87,Mattlaweg,7001,Vaduz,978,Bis,Fiona.Ziegler@yahoo.com,+41674329640,FRANCE
+821,146431,449626,320627,Melissa,Tobler,2021-10-28,7.7,Gnalpstrasse,7004,Triesenberg,443,,Melissa.Tobler@gmail.com,+33978822186,FRANCE
+800,191488,472160,322681,Michaela,Sieber,2023-10-16,6.27,Gässle,7002,Triesen,413,,Michaela.Sieber@yahoo.com,+49784471087,FRANCE
+114,152581,496741,355449,Deborah,Kessler,2023-06-29,0.0,Neugasse,7001,Vaduz,642,,Deborah.Kessler@outlook.com,+416234973236,FRANCE
+352,191495,476261,373889,Marta,Siegrist,2024-10-30,4.22,Im Duxer,7005,Schaan,819,Bis,Marta.Siegrist@yahoo.com,+41498115646,FRANCE
+646,171015,441450,373893,Clara,Kuster,2023-01-16,5.78,Fürstenstrasse,7003,Balzers,319,Bis,Clara.Kuster@outlook.com,+41510571604,FRANCE
+866,128013,472172,375942,Claudine,Bolliger,2021-04-06,0.0,Gantenstein,7011,Schellenberg,594,Bis,Claudine.Bolliger@yahoo.com,+41915508314,FRANCE
+745,148493,441453,324746,Klara,de Sousa,2022-02-06,3.49,Täscherlochstrasse,7004,Triesenberg,824,Bis,Klara.de Sousa@yahoo.com,+41117836893,FRANCE
+46,136216,420987,345227,Simona,Krebs,2023-01-13,0.0,Fingastrasse,7002,Triesen,817,Bis,Simona.Krebs@outlook.com,+41767476830,FRANCE
+472,177178,461951,373898,Camille,Locher,2023-07-21,0.0,Meierhofstrasse,7001,Vaduz,725,,Camille.Locher@yahoo.com,+49550696029,FRANCE
+301,140314,423041,347281,Victoria,Mendes,2024-04-21,3.22,Josef Rheinberger Strasse,7001,Vaduz,613,,Victoria.Mendes@gmail.com,+41749374577,FRANCE
+523,115740,418965,337042,Jolanda,Schmutz,2024-01-06,0.0,Britschenstrasse,7008,Mauren,72,,Jolanda.Schmutz@gmail.com,+41981075060,FRANCE
+671,199723,429208,380055,Florence,Graber,2021-10-16,0.0,Erbistrasse,7004,Triesenberg,27,,Florence.Graber@yahoo.com,+41246238330,FRANCE
+343,142381,480417,326811,Margrith,Bischof,2024-04-27,4.91,Obereggastrasse,7004,Triesenberg,244,,Margrith.Bischof@outlook.com,+41201868411,FRANCE
+494,173102,445618,326815,Adriana,Wicki,2023-09-03,0.0,Kohlbrunnen,7007,Eschen,324,,Adriana.Wicki@outlook.com,+41670938240,FRANCE
+481,140337,441526,347305,Luisa,Mathys,2024-02-08,5.58,Guler,7008,Mauren,685,,Luisa.Mathys@yahoo.com,+41118359169,FRANCE
+389,113713,433339,384175,Martine,Moreira,2024-10-10,0.0,Kriesebrogg,7011,Schellenberg,639,,Martine.Moreira@outlook.com,+41130264206,FRANCE
+7,119863,478402,388282,Lydia,Probst,2022-03-12,6.21,Sugabüntweg,7010,Ruggell,1037,,Lydia.Probst@gmail.com,+41928810127,FRANCE
+568,117821,429265,390341,Amélie,Hürlimann,2022-10-05,0.0,Schellenbergerstrasse,7008,Mauren,919,Bis,Amélie.Hürlimann@gmail.com,+41159055000,FRANCE
+490,181311,447698,369864,Natalia,Benz,2023-02-27,0.0,Heitastrasse,7004,Triesenberg,940,,Natalia.Benz@outlook.com,+41429284509,FRANCE
+628,199761,439507,339147,Chloé,Steinmann,2023-12-04,5.43,Waldteilstrasse,7007,Eschen,874,,Chloé.Steinmann@outlook.com,+41425899171,FRANCE
+515,191570,462046,345300,Corina,Friedli,2023-06-15,8.0,Schulstrasse,7004,Triesenberg,197,,Corina.Friedli@yahoo.com,+41564442277,FRANCE
+644,121943,425197,382168,Ida,Schütz,2025-03-01,0.0,Schulstrasse,7007,Eschen,523,,Ida.Schütz@outlook.com,+419574345910,FRANCE
+559,117849,451822,339161,Maya,Bösch,2023-11-29,0.0,Chalberrütistrasse,7004,Triesenberg,440,,Maya.Bösch@yahoo.com,+49375880897,FRANCE
+935,111719,423164,398554,Ingrid,Zwahlen,2024-10-16,10.93,Widengasse,7007,Eschen,701,,Ingrid.Zwahlen@gmail.com,+494460657871,FRANCE
+320,152689,447742,345310,Evelyne,Carvalho,2025-01-19,5.27,Im Wäsle,7006,Planken,1004,,Evelyne.Carvalho@yahoo.com,+41253496530,FRANCE
+782,150645,425223,365793,Carole,Osmani,2023-03-24,0.0,Rheinwiese,7005,Schaan,219,,Carole.Osmani@yahoo.com,+49664208602,FRANCE
+366,199806,498952,351458,Lucie,Nussbaumer,2021-07-04,10.38,Zur Schule,7005,Schaan,204,,Lucie.Nussbaumer@gmail.com,+41274855135,FRANCE
+221,185476,490764,314606,Mélanie,Braun,2025-02-11,6.3,Fabrikstrasse,7003,Balzers,650,,Mélanie.Braun@yahoo.com,+41428242160,FRANCE
+386,185482,464140,333045,Sandrine,Walther,2024-08-13,0.0,Spidach,7010,Ruggell,873,,Sandrine.Walther@yahoo.com,+33838499580,FRANCE
+467,197781,417043,324861,Laurence,Reber,2022-03-25,0.0,Birkenweg,7001,Vaduz,304,Bis,Laurence.Reber@outlook.com,+49523349260,FRANCE
+750,154775,412948,349439,Léa,de Jesus,2021-05-19,0.0,Im Oberfeld,7001,Vaduz,21,Bis,Léa.de Jesus@outlook.com,+49887194894,FRANCE
+931,152734,410903,349442,Mila,Correia,2023-04-01,0.0,Dorfstrasse,7006,Planken,765,,Mila.Correia@gmail.com,+41210681105,FRANCE
+491,191651,412953,337157,Nelly,Perez,2024-05-06,0.0,Mühlesträssle,7003,Balzers,989,,Nelly.Perez@yahoo.com,+41534269204,FRANCE
+155,140452,462117,324870,Ella,Stauffer,2023-02-08,0.0,Lachenstrasse,7008,Mauren,555,Bis,Ella.Stauffer@outlook.com,+41630619434,FRANCE
+35,167075,435496,355591,Natalie,Hostettler,2022-09-19,0.0,Waldstrasse,7008,Mauren,642,,Natalie.Hostettler@outlook.com,+41497321259,FRANCE
+61,171187,460078,314631,Kathrin,Mathis,2023-01-10,10.87,Nofler Strasse,7011,Schellenberg,580,,Kathrin.Mathis@outlook.com,+33799440177,FRANCE
+313,158912,441647,328974,Katrin,Soares,2024-05-23,6.85,Hopmaswingert,7002,Triesen,730,,Katrin.Soares@outlook.com,+41187649329,FRANCE
+85,126149,451888,351509,Antonia,Ott,2024-04-03,8.25,Burkatstrasse,7004,Triesenberg,559,,Antonia.Ott@gmail.com,+419287050549,FRANCE
+276,124108,412983,347415,Danielle,Erni,2022-02-21,4.16,Budennaweg,7005,Schaan,195,,Danielle.Erni@gmail.com,+412928559424,FRANCE
+726,171212,488763,347416,Zoé,König,2025-01-25,0.0,Sennwisstrasse,7004,Triesenberg,35,,Zoé.König@yahoo.com,+41766502216,FRANCE
+826,154842,462147,372000,Béatrice,Schüpbach,2022-01-19,0.0,Winkelstrasse,7004,Triesenberg,96,,Béatrice.Schüpbach@yahoo.com,+33474033482,FRANCE
+684,130280,472395,398626,Luzia,Haller,2024-01-15,0.0,Gänsenbach,7008,Mauren,334,,Luzia.Haller@outlook.com,+41254270795,FRANCE
+182,156908,466252,345382,Melina,Niederberger,2023-12-08,0.0,Felbaweg,7001,Vaduz,263,,Melina.Niederberger@yahoo.com,+41444046673,FRANCE
+363,191731,415053,398637,Sina,Almeida,2024-04-22,10.84,Fehragass,7009,Gamprin,965,,Sina.Almeida@outlook.com,+335726131540,FRANCE
+305,169205,437582,355630,Alicia,Jäger,2022-04-02,0.0,Im Arg,7002,Triesen,558,,Alicia.Jäger@gmail.com,+41306875739,FRANCE
+166,158979,429395,380209,Cécile,Ademi,2024-03-06,0.0,Toniäulestrasse,7001,Vaduz,284,Bis,Cécile.Ademi@yahoo.com,+41193842526,FRANCE
+570,183557,464213,347442,Elina,Hänni,2023-04-24,0.0,Sückastrasse,7004,Triesenberg,910,Bis,Elina.Hänni@yahoo.com,+41112913758,FRANCE
+201,191752,458076,372026,Gabriele,Ali,2022-04-29,5.88,In der Ballota,7005,Schaan,814,,Gabriele.Ali@yahoo.com,+334293285229,FRANCE
+425,132363,484703,378171,Elin,Shabani,2023-03-28,0.0,Erikaweg,7001,Vaduz,877,,Elin.Shabani@outlook.com,+41200476016,FRANCE
+524,115982,421215,365899,Ivana,Eugster,2022-09-22,7.23,Ober Betsche,7011,Schellenberg,615,,Ivana.Eugster@outlook.com,+415425890676,FRANCE
+922,126240,417119,374095,Renata,Rochat,2024-11-25,1.03,Im Güetli,7001,Vaduz,686,,Renata.Rochat@gmail.com,+33285259128,FRANCE
+717,154916,474469,318809,Samira,Willi,2021-10-31,4.94,Oberguferstrasse,7004,Triesenberg,798,Bis,Samira.Willi@yahoo.com,+41898971002,FRANCE
+420,116004,486765,318812,Emily,Bürki,2024-01-29,2.91,Im Frommenhaus,7004,Triesenberg,685,,Emily.Bürki@yahoo.com,+41114611583,FRANCE
+326,156966,454012,355685,Liselotte,Jäggi,2024-04-10,0.0,St. Luzistrasse,7001,Vaduz,279,,Liselotte.Jäggi@gmail.com,+49557057407,FRANCE
+645,148772,411010,327016,Bianca,Iten,2022-10-10,0.0,Quadera,7003,Balzers,994,,Bianca.Iten@yahoo.com,+419862978955,FRANCE
+732,142633,468358,363881,Irma,Walter,2023-11-04,0.0,Römerstrasse,7007,Eschen,739,,Irma.Walter@outlook.com,+41650429839,FRANCE
+863,144696,478612,341362,Gisela,Bärtschi,2023-06-06,1.94,Werkhofstrasse,7002,Triesen,941,,Gisela.Bärtschi@gmail.com,+41431889808,FRANCE
+208,146748,468376,333170,Valeria,Monteiro,2021-12-05,6.18,Büalstrasse,7004,Triesenberg,78,,Valeria.Monteiro@outlook.com,+33291149208,FRANCE
+723,142653,499098,349559,Suzanne,Trachsel,2022-05-25,0.0,Altenbach,7001,Vaduz,609,,Suzanne.Trachsel@yahoo.com,+41314119577,FRANCE
+77,165185,468383,380285,Alessandra,Gut,2021-09-06,4.74,Torkel,7002,Triesen,844,,Alessandra.Gut@gmail.com,+495283837342,FRANCE
+836,130372,449975,363919,Teresa,Heiniger,2024-04-26,7.21,Gewerbeweg,7008,Mauren,302,,Teresa.Heiniger@outlook.com,+49234972574,FRANCE
+691,183628,417220,325009,Kim,Aebi,2023-09-27,0.0,Wieshang,7008,Mauren,249,,Kim.Aebi@gmail.com,+41303445406,FRANCE
+323,171343,423366,312723,Claire,Glauser,2021-03-27,11.22,Kappeleweg,7011,Schellenberg,991,,Claire.Glauser@outlook.com,+41784145826,FRANCE
+572,163151,495052,388506,Elodie,Felder,2025-02-02,0.0,Britschenstrasse,7007,Eschen,699,,Elodie.Felder@gmail.com,+411760665015,FRANCE
+609,124250,435661,370074,Joëlle,Bürgi,2022-01-14,4.68,Steinegerta,7005,Schaan,496,,Joëlle.Bürgi@gmail.com,+49619650489,FRANCE
+387,132446,447955,318877,Gabriella,Schönenberger,2024-01-30,0.0,Thönysbünt,7001,Vaduz,654,,Gabriella.Schönenberger@gmail.com,+41218074557,FRANCE
+49,136555,452064,361887,Silvana,Amstutz,2024-04-01,7.05,Loch,7011,Schellenberg,568,,Silvana.Amstutz@outlook.com,+41304719295,FRANCE
+820,114028,493026,376243,Ines,Cardoso,2021-11-23,0.0,Rietsträssle,7005,Schaan,700,,Ines.Cardoso@yahoo.com,+494160800216,FRANCE
+390,163193,437732,337337,Margaretha,Thalmann,2024-11-30,0.0,Letzanaweg,7002,Triesen,638,,Margaretha.Thalmann@gmail.com,+41901860824,FRANCE
+274,142715,490991,392633,Paola,Emmenegger,2024-07-20,0.0,Heiligkreuz,7001,Vaduz,50,,Paola.Emmenegger@gmail.com,+41926420449,FRANCE
+573,165255,495089,376266,Angelina,Achermann,2022-01-10,0.0,Schlossweg,7003,Balzers,878,,Angelina.Achermann@yahoo.com,+33729591268,FRANCE
+475,132491,452084,355787,Pascale,Merz,2024-03-18,0.0,In den Äusseren,7006,Planken,630,,Pascale.Merz@outlook.com,+41381545957,FRANCE
+563,157071,468470,370128,Sabina,Ryser,2024-09-11,0.0,Matteltiwaldstrasse,7004,Triesenberg,547,,Sabina.Ryser@yahoo.com,+417126191590,FRANCE
+71,175529,435704,370130,Mathilde,Ferrari,2023-08-26,0.0,Bahnstrasse,7005,Schaan,65,,Mathilde.Ferrari@yahoo.com,+33791516647,FRANCE
+477,181680,488958,314838,Tina,Mettler,2023-07-28,0.0,Kemmisbüntweg,7010,Ruggell,72,,Tina.Mettler@gmail.com,+41746042861,FRANCE
+715,198071,466453,347607,Irina,Bader,2025-03-04,0.0,Floraweg,7001,Vaduz,311,,Irina.Bader@outlook.com,+493910991343,FRANCE
+462,185784,448022,351721,Cindy,Jakob,2024-12-09,10.21,Im Pardiel,7005,Schaan,639,,Cindy.Jakob@yahoo.com,+49326186481,FRANCE
+528,171449,478752,347629,Josiane,Winkler,2021-09-06,0.0,Im Mühleholz,7001,Vaduz,756,,Josiane.Winkler@yahoo.com,+415210496500,FRANCE
+434,118200,443938,314878,Marisa,Schaub,2023-11-03,0.0,Peter-Kaiser-Platz,7001,Vaduz,363,,Marisa.Schaub@outlook.com,+49585293303,FRANCE
+237,122304,427556,396804,Hildegard,Vieira,2023-04-03,8.41,Neudorfstrasse,7004,Triesenberg,328,,Hildegard.Vieira@gmail.com,+41649489913,FRANCE
+827,118210,476714,343556,Tatiana,Wirth,2022-01-07,11.15,Felbenweg,7008,Mauren,887,,Tatiana.Wirth@outlook.com,+49785214974,FRANCE
+799,189892,474684,355861,Joana,Zeller,2022-03-22,11.17,Schützenplatz,7007,Eschen,1015,,Joana.Zeller@yahoo.com,+41259419647,FRANCE
+428,118213,460350,319000,Marianna,Flury,2023-04-22,0.0,Fallagass,7010,Ruggell,878,,Marianna.Flury@gmail.com,+41166342148,FRANCE
+574,138696,482878,378409,Jeannine,Herrmann,2022-04-05,0.0,Spiegelstrasse,7010,Ruggell,418,Bis,Jeannine.Herrmann@yahoo.com,+416381045284,FRANCE
+422,159192,441927,398895,Aurora,Leu,2023-06-29,7.99,Herrenwingert,7008,Mauren,497,,Aurora.Leu@yahoo.com,+41865097257,FRANCE
+667,118237,450128,341563,Flavia,Wehrli,2024-08-02,5.84,Selemad,7009,Gamprin,414,,Flavia.Wehrli@outlook.com,+41189414964,FRANCE
+331,136673,431699,396859,Pauline,Birrer,2022-09-25,0.0,Prafatell,7003,Balzers,441,Bis,Pauline.Birrer@yahoo.com,+41836032057,FRANCE
+743,173552,460373,345668,Kristina,Pittet,2025-03-19,0.0,Lochgass,7001,Vaduz,75,,Kristina.Pittet@gmail.com,+49793566780,FRANCE
+497,114173,493143,368205,Carolina,Richard,2024-10-24,7.02,Säss,7003,Balzers,242,Bis,Carolina.Richard@gmail.com,+41651368012,FRANCE
+75,161279,487002,331354,Elvira,Lötscher,2023-01-20,5.64,Im Steinort,7004,Triesenberg,842,,Elvira.Lötscher@gmail.com,+419743646284,FRANCE
+857,130566,415327,376415,Amanda,Hirschi,2022-08-11,0.0,Sportplatzstrasse,7004,Triesenberg,740,,Amanda.Hirschi@gmail.com,+41365389390,FRANCE
+768,140812,487009,390770,Seraina,Ritter,2022-10-23,2.0,Iradug,7003,Balzers,237,,Seraina.Ritter@gmail.com,+49741178958,FRANCE
+656,146966,417379,327287,Angelika,Wirz,2023-04-30,0.0,Ober Ställ,7006,Planken,219,,Angelika.Wirz@outlook.com,+416991132240,FRANCE
+688,144924,491110,388730,Thi,Knecht,2021-05-13,0.0,Im Rietacker,7005,Schaan,439,Bis,Thi.Knecht@yahoo.com,+41191467094,FRANCE
+284,194082,474737,378496,Rachel,Schlegel,2024-01-29,7.68,Gapetschstrasse,7005,Schaan,680,,Rachel.Schlegel@gmail.com,+49673289822,FRANCE
+632,185902,423542,362125,Lynn,Mohamed,2025-01-27,0.0,Eggasweg,7001,Vaduz,593,,Lynn.Mohamed@gmail.com,+41783236713,FRANCE
+89,190006,411263,341645,Aurélie,Zemp,2024-04-29,3.46,Malbunstrasse,7004,Triesenberg,112,,Aurélie.Zemp@yahoo.com,+41993097321,FRANCE
+113,136763,450181,325269,Tania,Germann,2021-04-30,0.0,Parganta,7002,Triesen,360,,Tania.Germann@outlook.com,+41736632427,FRANCE
+618,153148,435848,355995,Marija,Sanchez,2024-04-16,0.0,Krummenacker,7008,Mauren,722,,Marija.Sanchez@yahoo.com,+41136820332,FRANCE
+442,159292,439947,337564,Annette,Walser,2023-02-27,0.0,Duxweg,7005,Schaan,471,,Annette.Walser@yahoo.com,+49821708393,FRANCE
+178,177736,482961,349852,Liliana,Balmer,2021-09-26,3.3,Bühelstrasse,7004,Triesenberg,827,,Liliana.Balmer@yahoo.com,+498770537077,FRANCE
+703,179794,497301,337566,Manon,Landolt,2024-12-19,0.0,Under Wesa,7010,Ruggell,486,,Manon.Landolt@outlook.com,+41675659384,FRANCE
+601,171602,499352,351905,Louise,Brand,2023-08-04,0.0,Valünastrasse,7004,Triesenberg,650,,Louise.Brand@outlook.com,+41539424380,FRANCE
+375,187989,454296,341665,Hélène,Wälti,2022-04-23,0.0,Försterweg,7001,Vaduz,793,,Hélène.Wälti@gmail.com,+419350915710,FRANCE
+135,124520,423582,331429,Noémie,Eberle,2024-02-27,0.0,Grasgarten,7007,Eschen,458,Bis,Noémie.Eberle@outlook.com,+41459179650,FRANCE
+341,122473,462499,319143,Anaïs,Gfeller,2023-04-18,0.0,Bönerstrasse,7008,Mauren,899,,Anaïs.Gfeller@outlook.com,+41867393166,FRANCE
+548,192107,493225,396970,Ariane,Zingg,2024-07-17,0.0,Im Kellersfeld,7010,Ruggell,651,,Ariane.Zingg@yahoo.com,+41992790160,FRANCE
+42,177774,497323,341677,Natascha,Schoch,2023-02-21,0.0,Bodastrasse,7004,Triesenberg,877,,Natascha.Schoch@outlook.com,+33257724050,FRANCE
+258,181893,464555,396979,Salome,Stadler,2024-12-13,3.07,Fabrikenweg,7008,Mauren,15,,Salome.Stadler@gmail.com,+41335810195,FRANCE
+345,167561,485044,396981,Fatima,Bigler,2024-02-27,4.06,Runkels,7002,Triesen,970,,Fatima.Bigler@gmail.com,+416579289749,FRANCE
+933,157322,497341,380608,Muriel,Wild,2024-11-10,0.0,Rotenbodenstrasse,7004,Triesenberg,334,,Muriel.Wild@outlook.com,+41976795287,FRANCE
+244,136841,468671,384716,Dorothea,Iseli,2025-01-28,0.0,Parmezgstrasse,7004,Triesenberg,920,,Dorothea.Iseli@outlook.com,+49330374819,FRANCE
+880,173721,437955,362205,Erna,Blanc,2024-01-31,0.0,Am Schrägen Weg,7001,Vaduz,449,,Erna.Blanc@yahoo.com,+41129119913,FRANCE
+696,192159,456395,384734,Ladina,Kern,2022-01-31,0.0,Obere Au,7002,Triesen,259,,Ladina.Kern@gmail.com,+49580472490,FRANCE
+914,198303,499404,356064,Sarina,Gross,2022-12-23,0.0,Zuschggasse,7007,Eschen,691,,Sarina.Gross@gmail.com,+41706285238,FRANCE
+265,181919,493263,347876,Stella,Forster,2023-11-09,0.0,Donatsweg,7003,Balzers,493,,Stella.Forster@outlook.com,+41966598326,FRANCE
+399,143008,489169,392932,Debora,Etter,2021-04-10,0.0,Pflugstrasse,7001,Vaduz,410,,Debora.Etter@outlook.com,+41427937468,FRANCE
+932,194213,419540,356070,Fanny,Frischknecht,2022-09-03,2.29,Sägastrasse,7002,Triesen,40,,Fanny.Frischknecht@gmail.com,+49633054915,FRANCE
+391,124583,485077,313065,Giovanna,Messerli,2022-12-16,0.0,Bangarten,7001,Vaduz,354,Bis,Giovanna.Messerli@yahoo.com,+41628405963,FRANCE
+598,173745,454361,325354,Anouk,Kastrati,2022-03-25,9.26,Bargällastrasse,7004,Triesenberg,696,Bis,Anouk.Kastrati@yahoo.com,+413464412876,FRANCE
+473,192178,411364,362217,Jelena,Russo,2023-03-18,0.0,Abtswingertweg,7001,Vaduz,960,Bis,Jelena.Russo@yahoo.com,+41933349069,FRANCE
+767,173749,458476,339693,Ronja,Bianchi,2021-06-14,0.0,Feldstrasse,7001,Vaduz,792,,Ronja.Bianchi@outlook.com,+41379072231,FRANCE
+328,130744,411372,317170,Yara,Jovanovic,2022-10-29,0.0,Fabrikwegli,7002,Triesen,181,,Yara.Jovanovic@outlook.com,+41964663020,FRANCE
+547,186046,470765,368374,Jasmine,Grossenbacher,2022-03-08,7.11,Speckemahd,7008,Mauren,884,,Jasmine.Grossenbacher@yahoo.com,+41133631728,FRANCE
+225,134847,423665,362231,Amina,Bauer,2024-02-01,0.0,Herrengasse,7001,Vaduz,227,,Amina.Bauer@yahoo.com,+41610887411,FRANCE
+569,136903,476916,386815,Naomi,Sidler,2024-07-25,0.0,Schwarz Strässle,7005,Schaan,522,,Naomi.Sidler@outlook.com,+41596989684,FRANCE
+685,120553,478968,356096,Mireille,Krähenbühl,2022-07-12,9.42,Krist,7007,Eschen,129,,Mireille.Krähenbühl@yahoo.com,+41219920117,FRANCE
+5,169706,495353,360197,Katia,Allemann,2022-04-15,4.3,Am Nendlerweg,7006,Planken,149,,Katia.Allemann@yahoo.com,+33676103948,FRANCE
+852,165616,427770,339719,Jenny,Stähli,2023-09-13,5.87,Blumenau,7002,Triesen,897,,Jenny.Stähli@outlook.com,+41895915791,FRANCE
+115,110329,413444,319249,Viviane,Dietrich,2022-05-07,0.0,Obergass,7003,Balzers,770,,Viviane.Dietrich@outlook.com,+33935196435,FRANCE
+650,198393,442122,349977,Hannah,Thoma,2024-02-06,0.0,Wangerbergstrasse,7004,Triesenberg,3,,Hannah.Thoma@yahoo.com,+41544433946,FRANCE
+751,145147,450314,390941,Aleksandra,Tschanz,2024-04-15,11.19,Obere Hub,7007,Eschen,932,,Aleksandra.Tschanz@outlook.com,+41728852255,FRANCE
+455,122631,476941,347936,Francine,Gehrig,2025-01-02,0.0,Garnrechte,7003,Balzers,795,,Francine.Gehrig@gmail.com,+41176756512,FRANCE
+575,159495,497423,341800,Frieda,Petrovic,2024-07-05,7.27,Lettgräbli,7001,Vaduz,163,,Frieda.Petrovic@outlook.com,+41581371683,FRANCE
+137,153354,442129,378674,Zoe,Simon,2024-01-09,0.0,Valorschstrasse,7005,Schaan,298,,Zoe.Simon@yahoo.com,+49727629605,FRANCE
+376,163602,497426,319294,Stefania,Brun,2024-08-21,10.54,Hasenweg,7001,Vaduz,479,,Stefania.Brun@gmail.com,+41939501361,FRANCE
+907,116507,442134,333631,Laetitia,Fehr,2022-10-20,4.44,Gemeindegarten,7007,Eschen,588,,Laetitia.Fehr@gmail.com,+418909352754,FRANCE
+672,155421,464663,343873,Marlene,de Almeida,2022-12-05,10.85,Hüschistrasse,7004,Triesenberg,849,,Marlene.de Almeida@yahoo.com,+41117325619,FRANCE
+54,155422,452382,335686,Jeanne,Geiser,2022-08-15,9.99,Falgedingass,7010,Ruggell,1055,,Jeanne.Geiser@yahoo.com,+41798273332,FRANCE
+737,173865,474913,329553,Audrey,Rexhepi,2022-01-14,0.0,Eichengasse,7001,Vaduz,631,,Audrey.Rexhepi@gmail.com,+416250581834,FRANCE
+607,116536,433955,354136,Anne-Marie,Manser,2024-09-09,0.0,Stachler,7005,Schaan,970,,Anne-Marie.Manser@outlook.com,+33898934616,FRANCE
+633,182074,485165,323423,Antoinette,Rieder,2022-10-17,6.4,Letziweg,7001,Vaduz,169,,Antoinette.Rieder@yahoo.com,+416205804380,FRANCE
+484,177980,425775,335718,Mariana,Bär,2022-07-15,0.0,Im Rösle,7005,Schaan,163,,Mariana.Bär@gmail.com,+41334653293,FRANCE
+910,182085,427839,374633,Leila,Ernst,2023-01-17,0.0,Brüelweg,7003,Balzers,567,,Leila.Ernst@outlook.com,+41217757550,FRANCE
+830,116553,436034,362347,Samantha,Roos,2024-10-13,0.0,Gampelutzstrasse,7008,Mauren,995,,Samantha.Roos@gmail.com,+415224523634,FRANCE
+535,165708,466759,393071,Luna,Waser,2024-08-07,5.03,Grashalda,7003,Balzers,478,,Luna.Waser@outlook.com,+41478109554,FRANCE
+439,114509,497486,350066,Amelia,Beyeler,2024-11-15,0.0,Rheinau,7002,Triesen,962,,Amelia.Beyeler@gmail.com,+419831495541,FRANCE
+149,128846,462673,354165,Helen,Blatter,2021-06-20,6.55,Rosenweg,7007,Eschen,921,,Helen.Blatter@gmail.com,+41211052405,FRANCE
+861,124754,440145,341879,Lilian,Ahmed,2023-07-15,0.0,Buchenstein,7010,Ruggell,150,,Lilian.Ahmed@gmail.com,+49306634622,FRANCE
+757,163675,456537,345975,Luca,Hodel,2023-07-31,2.21,Grosssteg,7004,Triesenberg,157,,Luca.Hodel@outlook.com,+41868341630,FRANCE
+787,114526,425822,345980,Jean,Burkhalter,2021-06-18,8.58,Schlossweg,7011,Schellenberg,135,,Jean.Burkhalter@gmail.com,+49202407832,FRANCE
+361,153468,411488,364414,Jan,Mosimann,2022-01-23,5.35,Haberacherstrasse,7004,Triesenberg,700,,Jan.Mosimann@outlook.com,+41762240924,FRANCE
+130,128897,423782,333702,Noah,Hoti,2022-11-17,0.0,Streue,7003,Balzers,926,Bis,Noah.Hoti@yahoo.com,+41906114975,FRANCE
+602,155523,415594,372615,Robin,Mustafa,2024-09-03,0.0,Fallsbretscha,7009,Gamprin,531,,Robin.Mustafa@outlook.com,+41847314858,FRANCE
+164,135049,436074,315274,Andrea,Rossier,2022-08-14,0.0,Schmedgässle,7005,Schaan,252,,Andrea.Rossier@gmail.com,+41335050667,FRANCE
+9,184204,448370,321421,Claude,Sonderegger,2022-01-04,0.0,Im Gässle,7001,Vaduz,86,,Claude.Sonderegger@yahoo.com,+416367025066,FRANCE
+446,178063,497524,339862,Ali,Salzmann,2024-11-16,6.03,Poskahalda,7002,Triesen,587,,Ali.Salzmann@gmail.com,+497462979501,FRANCE
+104,173971,458617,397213,Stéphane,Neuenschwander,2024-09-15,0.0,Renkwiler,7007,Eschen,288,,Stéphane.Neuenschwander@gmail.com,+41644171701,FRANCE
+0,196508,456599,391085,Nicola,Eggenberger,2024-02-20,1.92,Alpila,7005,Schaan,516,,Nicola.Eggenberger@yahoo.com,+41510689210,FRANCE
+445,153503,472988,389040,Alex,Sousa,2025-01-16,0.0,Baumschulweg,7007,Eschen,672,,Alex.Sousa@gmail.com,+41628928445,FRANCE
+735,118691,417704,317366,Yannick,Baur,2023-04-18,6.69,Obergut,7007,Eschen,1010,,Yannick.Baur@outlook.com,+41174114751,FRANCE
+777,126888,452527,368582,Loris,Linder,2024-06-08,0.0,Am Gupfenbühel,7008,Mauren,702,,Loris.Linder@yahoo.com,+41587093955,FRANCE
+663,114607,444345,382919,Sascha,Schläpfer,2024-10-08,9.46,Im Quäderle,7001,Vaduz,344,,Sascha.Schläpfer@gmail.com,+41141436868,FRANCE
+319,133041,427972,372687,Michele,Zuber,2025-02-07,0.0,Rofenbergstrasse,7007,Eschen,446,,Michele.Zuber@gmail.com,+415718679494,FRANCE
+790,192434,419780,335824,Dominique,Aebischer,2024-12-19,0.0,Mittlere Länge,7001,Vaduz,702,,Dominique.Aebischer@yahoo.com,+41355760082,FRANCE
+911,133056,473042,352210,Maxime,Züger,2025-01-14,0.0,Sebastianstrasse,7007,Eschen,716,,Maxime.Züger@yahoo.com,+41881852372,FRANCE
+152,139202,460755,331735,Elia,Blättler,2022-05-10,2.97,Im Grabaton,7005,Schaan,255,,Elia.Blättler@gmail.com,+41914452437,FRANCE
+558,133072,436181,364505,Daniele,Affolter,2022-04-14,10.81,Obrosa,7010,Ruggell,803,,Daniele.Affolter@yahoo.com,+41366288857,FRANCE
+272,194514,448480,378842,Juan,Clerc,2021-05-05,0.0,St. Johannerweg,7005,Schaan,695,,Juan.Clerc@gmail.com,+33706301914,FRANCE
+91,135124,462816,348129,Nino,Hasani,2022-10-14,0.0,Greschner,7011,Schellenberg,812,,Nino.Hasani@yahoo.com,+415576892380,FRANCE
+204,180184,464873,366564,Rui,Minder,2023-06-30,0.0,Im Rehwinkel,7001,Vaduz,978,,Rui.Minder@yahoo.com,+417364333533,FRANCE
+508,169945,466922,354279,Noé,Oberholzer,2023-01-12,5.44,Tannwald,7011,Schellenberg,452,,Noé.Oberholzer@gmail.com,+41134836193,FRANCE
+567,143327,438251,335855,Willy,Jud,2021-10-02,0.0,Grossabünt,7009,Gamprin,869,,Willy.Jud@outlook.com,+418800520166,FRANCE
+157,155633,466921,337908,Nikola,von Allmen,2023-06-06,0.0,Kirchensträssle,7003,Balzers,272,,Nikola.von Allmen@gmail.com,+41580157422,FRANCE
+621,118770,421871,327676,Janis,Schäfer,2022-06-26,7.12,An der Halde,7002,Triesen,453,,Janis.Schäfer@gmail.com,+41629719023,FRANCE
+492,135158,471034,317439,Simone,Hutter,2023-02-14,5.8,Guflinastrasse,7004,Triesenberg,674,,Simone.Hutter@gmail.com,+41525072369,FRANCE
